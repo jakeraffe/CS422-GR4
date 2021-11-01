@@ -1,4 +1,4 @@
-### CS422-GR4
+# CS422-GR4
 
 ## Please use: ```yarn install``` to install all packages before testing. You may need to run the command in both the ```/frontend``` and ```/backend``` folders.
 ## Member Names:
