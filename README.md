@@ -4,6 +4,7 @@
 
 ## 2. In order to see the changes you make, go to ```/frontend/App.js``` and change the '/' route go to the page you are working on. For example, if I wanted to work on the LearnPage I would change it to:
 ```
+App.js
 <Route exact path="/">
     <LearnPage/>
 </Route>
