@@ -1,6 +1,6 @@
 # CS422-GR4
 
-## Please use: ```yarn install``` to install all packages before testing. You may need to run the command in both the ```/frontend``` and ```/backend``` folders.
+## Please make sure you are in the dev branch and navigate to the ```/frontend``` folder. You must run ```yarn install``` to install all packages and dependencies before testing your code.
 ## Member Names:
 
 Jacob Raffe 
