@@ -1,6 +1,6 @@
 import react from "react";
 
-const InfluencerCard = () => {
+const InfluencerCardModule = () => {
 
 
     return(
@@ -11,4 +11,4 @@ const InfluencerCard = () => {
     )
 }
 
-export default InfluencerCard;
+export default InfluencerCardModule;

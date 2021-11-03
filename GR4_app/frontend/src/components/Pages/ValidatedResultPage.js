@@ -1,6 +1,6 @@
 import react from "react";
 
-const ValidatedResults = () => {
+const ValidatedResultsPage = () => {
 
 
     return(
@@ -11,4 +11,4 @@ const ValidatedResults = () => {
     )
 }
 
-export default ValidatedResults;
+export default ValidatedResultsPage;

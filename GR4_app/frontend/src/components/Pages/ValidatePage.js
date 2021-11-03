@@ -1,6 +1,6 @@
 import react from "react";
 
-const Validate = () => {
+const ValidatePage = () => {
 
 
     return(
@@ -11,4 +11,4 @@ const Validate = () => {
     )
 }
 
-export default Validate;
+export default ValidatePage;

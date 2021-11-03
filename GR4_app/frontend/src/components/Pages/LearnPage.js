@@ -1,14 +1,14 @@
 import react from "react";
 
-const Filter = () => {
+const LearnPage = () => {
 
 
     return(
         <div>
-            <h2>Filter component</h2>
+            <h2>Welcome to the Learn Page</h2>
             <p>More text</p>
         </div>
     )
 }
 
-export default Filter;
+export default LearnPage;

@@ -1,6 +1,6 @@
 import react from "react";
 
-const Influencer = () => {
+const InfluencerPage = () => {
 
 
     return(
@@ -11,4 +11,4 @@ const Influencer = () => {
     )
 }
 
-export default Influencer;
+export default InfluencerPage;

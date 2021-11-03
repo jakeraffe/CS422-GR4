@@ -1,14 +1,14 @@
 import react from "react";
 
-const TitleBar = () => {
+const FilterModule = () => {
 
 
     return(
         <div>
-            <h2>Title Bar Component</h2>
+            <h2>Filter component</h2>
             <p>More text</p>
         </div>
     )
 }
 
-export default TitleBar;
+export default FilterModule;

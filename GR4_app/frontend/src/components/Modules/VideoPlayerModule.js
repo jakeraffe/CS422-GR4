@@ -1,6 +1,6 @@
 import react from "react";
 
-const VideoPlayer = () => {
+const VideoPlayerModule = () => {
 
 
     return(
@@ -11,4 +11,4 @@ const VideoPlayer = () => {
     )
 }
 
-export default VideoPlayer;
+export default VideoPlayerModule;

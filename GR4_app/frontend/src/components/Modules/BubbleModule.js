@@ -1,6 +1,6 @@
 import react from "react";
 
-const Bubble = () => {
+const BubbleModule = () => {
 
 
     return(
@@ -11,4 +11,4 @@ const Bubble = () => {
     )
 }
 
-export default Bubble;
+export default BubbleModule;

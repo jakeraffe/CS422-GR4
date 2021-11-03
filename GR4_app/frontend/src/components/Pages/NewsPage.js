@@ -1,6 +1,6 @@
 import react from "react";
 
-const News = () => {
+const NewsPage = () => {
 
 
     return(
@@ -11,4 +11,4 @@ const News = () => {
     )
 }
 
-export default News;
+export default NewsPage;

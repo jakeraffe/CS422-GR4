@@ -1,5 +1,17 @@
 import './App.css';
-import Validate from './components/./Pages/Validate'
+
+// Pages
+import ValidatePage from './components/Pages/ValidatePage'
+import LearnPage from './components/Pages/LearnPage'
+import NewsPage from './components/Pages/NewsPage'
+import ValidatedResultPage from './components/Pages/ValidatedResultPage'
+// Modules
+import BubbleModule from './components/Modules/BubbleModule'
+import FilterModule from './components/Modules/FilterModule'
+import InfluencerCardModule from './components/Modules/InfluencerCardModule'
+import NavbarModule from './components/Modules/NavbarModule'
+import TitleBarModule from './components/Modules/TitleBarModule'
+
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -8,11 +20,11 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Validate/>
+            <LearnPage/>
           </Route>
-           <Route exact path="/Validate">
+           {/* <Route exact path="/Validate">
             <Validate/>
-          </Route>
+          </Route> */}
           {/*<Route exact path="/learn">
             <LearnCypto/>
           </Route>

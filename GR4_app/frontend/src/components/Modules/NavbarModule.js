@@ -1,14 +1,14 @@
 import react from "react";
 
-const Learn = () => {
+const NavbarModule = () => {
 
 
     return(
         <div>
-            <h2>Welcome to the Learn Page</h2>
+            <h2>Navbar component</h2>
             <p>More text</p>
         </div>
     )
 }
 
-export default Learn;
+export default NavbarModule;
