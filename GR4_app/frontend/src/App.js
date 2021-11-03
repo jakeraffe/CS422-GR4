@@ -1,5 +1,5 @@
 import './App.css';
-import Validate from './components/Validate'
+import Validate from './components/./Pages/Validate'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -10,10 +10,10 @@ function App() {
           <Route exact path="/">
             <Validate/>
           </Route>
-          {/* <Route exact path="/validate-coin">
+           <Route exact path="/Validate">
             <Validate/>
           </Route>
-          <Route exact path="/learn">
+          {/*<Route exact path="/learn">
             <LearnCypto/>
           </Route>
           <Route exact path="/quizes">
