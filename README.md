@@ -7,8 +7,8 @@
 <Route exact path="/">
     <LearnPage/>
 </Route>
-```
-## Now when you reload the page or run yarn start, it will load to the LearnPage component.
+``` 
+
 ## Member Names:
 
 Jacob Raffe 
