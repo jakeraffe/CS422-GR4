@@ -29,3 +29,4 @@ const BubbleModule = (props) => {
 }
 
 export default BubbleModule;
+
