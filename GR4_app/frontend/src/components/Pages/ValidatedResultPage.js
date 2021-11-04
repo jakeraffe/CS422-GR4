@@ -1,4 +1,5 @@
 import react from "react";
+import './Pages.css';
 
 const ValidatedResultsPage = () => {
 

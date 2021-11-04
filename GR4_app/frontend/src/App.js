@@ -6,11 +6,11 @@ import LearnPage from './components/Pages/LearnPage'
 import NewsPage from './components/Pages/NewsPage'
 import ValidatedResultPage from './components/Pages/ValidatedResultPage'
 // Modules
-import BubbleModule from './components/Pages/Modules/BubbleModule'
-import FilterModule from './components/Pages/Modules/FilterModule'
-import InfluencerCardModule from './components/Pages/Modules/InfluencerCardModule'
-import NavbarModule from './components/Pages/Modules/NavbarModule'
-import TitleBarModule from './components/Pages/Modules/TitleBarModule'
+import BubbleModule from './components/Modules/BubbleModule'
+import FilterModule from './components/Modules/FilterModule'
+import InfluencerCardModule from './components/Modules/InfluencerCardModule'
+import NavbarModule from './components/Modules/NavbarModule'
+import TitleBarModule from './components/Modules/TitleBarModule'
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 

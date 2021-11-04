@@ -1,5 +1,8 @@
 import react from "react";
-import BubbleModule from './Modules/BubbleModule'
+import './Pages.css';
+import BubbleModule from '../Modules/BubbleModule'
+
+
 const ValidatePage = () => {
 
     const renderForm = () => {
@@ -9,9 +12,11 @@ const ValidatePage = () => {
     return(
         <div>
             <h2>Welcome to the Home Page</h2>
-            {renderForm()}
+            <div class="button">
+                {renderForm()}
+            </div>
+        
         </div>
     )
 }
-
 export default ValidatePage;
