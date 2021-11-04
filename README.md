@@ -8,7 +8,8 @@ App.js
 <Route exact path="/">
     <LearnPage/>
 </Route>
-``` 
+```
+## To start the program and see it in the browser, make sure you are in the frontend/ folder and run ```yarn start```.
 ## 3. There is a ```Pages.css``` file in the pages folder that will allow you to edit the css of whatever page you are working on.
 
 
