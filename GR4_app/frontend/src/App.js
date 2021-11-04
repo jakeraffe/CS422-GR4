@@ -5,6 +5,7 @@ import ValidatePage from './components/Pages/ValidatePage'
 import LearnPage from './components/Pages/LearnPage'
 import NewsPage from './components/Pages/NewsPage'
 import ValidatedResultPage from './components/Pages/ValidatedResultPage'
+import InfluencerPage from './components/Pages/InfluencerPage'
 // Modules
 import BubbleModule from './components/Modules/BubbleModule'
 import FilterModule from './components/Modules/FilterModule'
@@ -21,6 +22,15 @@ function App() {
         <Switch>
           <Route exact path="/">
             <ValidatePage/>
+          </Route>
+          <Route exact path="/Learn">
+            <LearnPage/>
+          </Route>
+          <Route exact path="/News">
+            <NewsPage/>
+          </Route>
+          <Route exact path="/Influencer-Activity">
+            <InfluencerPage/>
           </Route>
            {/* <Route exact path="/Validate">
             <Validate/>
