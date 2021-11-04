@@ -9,6 +9,8 @@ App.js
     <LearnPage/>
 </Route>
 ``` 
+## 3. There is a ```Pages.css``` file in the pages folder that will allow you to edit the css of whatever page you are working on.
+
 
 ## Member Names:
 
