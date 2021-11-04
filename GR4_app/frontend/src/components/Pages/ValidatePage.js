@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import './Pages.css';
 import BubbleModule from '../Modules/BubbleModule'
 
@@ -6,7 +6,7 @@ import BubbleModule from '../Modules/BubbleModule'
 const ValidatePage = () => {
 
     const renderForm = () => {
-        return(<BubbleModule/>)
+        return(<BubbleModule imgsrc="https://cdn-icons.flaticon.com/png/512/2586/premium/2586703.png?token=exp=1635984346~hmac=2819253c3af4aafa6fd319c4ff08e28f" text="Learn"/>)
     }
 
     return(
