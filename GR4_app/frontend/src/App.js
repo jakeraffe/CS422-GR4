@@ -33,6 +33,9 @@ function App() {
           <Route exact path="/Influencer-Activity">
             <InfluencerPage/>
           </Route>
+          <Route exact path="/Validate-Result">
+            <ValidatedResultPage/>
+          </Route>
            {/* <Route exact path="/Validate">
             <Validate/>
           </Route> */}

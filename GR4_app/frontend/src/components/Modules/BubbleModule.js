@@ -21,8 +21,8 @@ const BubbleModule = (props) => {
     
     // All styles will be put into a css file...
     return(
-        <Button className="bg-secondary rounded-circle" style={{width: "300px", height: "300px"}} onClick={redirectClick}>
-            <img src={props.imgsrc} alt={props.text} style={{width: "180px", height: "180px", margin:"15px"}}/>
+        <Button className="bg-secondary rounded-circle" style={{width: "250px", height: "250px"}} onClick={redirectClick}>
+            <img src={props.imgsrc} alt={props.text} style={{width: "150px", height: "150px", objectFit:"contain", margin:"8px"}}/>
             <p className="text-center">{props.text}</p>
         </Button>
     )
