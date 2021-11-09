@@ -17,7 +17,7 @@ import dogeLogo from "./Images/dogecoin.png";
 
 const ValidatePage = () => {
     var coin = "";
-    const coinNames = ["BTC", "ETH", "SHIBA INU", "TERRA", "DOGE", "LTC", "WHYCOIN", "BITCOIN", "ETHEREUM", "LITECOIN"];// Add more at some later time..
+    const coinNames = ["BTC", "ETH", "DOGE", "LTC", "WHYCOIN", "BITCOIN", "ETHEREUM", "LITECOIN"];// Add more at some later time..
     const history = useHistory();
     const [searchState, setSearch] = useState("Search");
     const [searchColor, setSearchColor] = useState("primary");
