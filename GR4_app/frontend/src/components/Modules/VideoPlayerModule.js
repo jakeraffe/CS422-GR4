@@ -1,13 +1,25 @@
-import react from "react";
-
+import React from "react";
+import { Button, Modal} from 'react-bootstrap';
 const VideoPlayerModule = () => {
-
+    
 
     return(
-        <div>
-            <h2>Video Player and Information Popup component</h2>
-            <p>More text</p>
-        </div>
+        <Modal.Dialog>
+            <Modal.Header closeButton >
+                <Modal.Title >Lecture 1: Crypto Basics</Modal.Title>
+            </Modal.Header>
+
+            <Modal.Body>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, no eos suas ullamcorper, veniam commodo equidem ad pro. Sed etiam omittantur cu. </p>
+                    </div>
+                    <div class="col-md-6">
+                    <iframe id="Video" width="180px" height="90px" src="//www.youtube.com/embed/OSXH1xbiIVM" frameborder="0" allowfullscreen></iframe> 
+                    </div>
+                </div>
+            </Modal.Body>
+        </Modal.Dialog>
     )
 }
 
