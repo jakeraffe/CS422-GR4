@@ -1,0 +1,36 @@
+
+.coin-info {
+    background-color: #6E75A8;
+    color: #F9AB55;
+    font-family: 'Nunito Sans', sans-serif;
+    width:60%;
+    text-align: left;
+    padding: 5px;
+}
+
+.vid-player{
+  width: 20%; 
+  height: 20%;  
+  padding-top: 56.25%; 
+  position: relative;
+}
+
+.card-info .modal-content {
+    background-color: #6E75A8;
+    color: #F9AB55;
+    font-family: 'Nunito Sans', sans-serif;
+
+    max-height: 400px;
+    max-width: 400px;
+    text-align: left;
+
+}
+
+
+.img-graph {
+    height: auto;
+    width: auto;
+    max-height: 390px;
+    max-width: 390px;
+
+}

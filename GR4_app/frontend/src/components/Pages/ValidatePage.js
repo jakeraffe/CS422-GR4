@@ -3,13 +3,22 @@ import './Pages.css';
 import BubbleModule from '../Modules/BubbleModule'
 import {Container, Row, Col, Button, Form} from "react-bootstrap";
 import { useHistory } from "react-router-dom";
+import "./Styles/ValidatePage.css";
+import learnLogo from "./Images/learn.png";
+import aboutLogo from "./Images/about.png";
+import influencerLogo from "./Images/influencer.png";
+import newsLogo from "./Images/newspaper.png";
+import btcLogo from "./Images/bitcoin.png";
+import ltcLogo from "./Images/litecoin.png";
+import ethLogo from "./Images/ethereum.png";
+import dogeLogo from "./Images/dogecoin.png";
 
+// Images belong to https://www.freepik.com
 
 const ValidatePage = () => {
     var coin = "";
-    const coinNames = ["BTC", "ETH", "SHIBA INU", "TERRA", "DOGE", "LTC", "WHYCOIN"];// Add more at some later time..
+    const coinNames = ["BTC", "ETH", "SHIBA INU", "TERRA", "DOGE", "LTC", "WHYCOIN", "BITCOIN", "ETHEREUM", "LITECOIN"];// Add more at some later time..
     const history = useHistory();
-    // const searchBtnRef = useRef(null);
     const [searchState, setSearch] = useState("Search");
     const [searchColor, setSearchColor] = useState("primary");
 
@@ -22,11 +31,11 @@ const ValidatePage = () => {
                 pathname: '/Validate-Result',
                 search: "?scam"+coin, 
                 state: { 
-                    coinName: coin // Send coin name to validate result page...
+                    coinName: coin
                 },
             }); 
         } else {
-            setSearch("Invlaid");
+            setSearch("No Match");
             setSearchColor("danger");
         }
         
@@ -37,6 +46,11 @@ const ValidatePage = () => {
         searchCoin();
     }
 
+    function enterSearchCoin(e) {
+        if (coinNames.find(element => element === coin.toUpperCase()) === undefined)
+            e.preventDefault();
+        searchCoin();
+    }
 
 
     const renderForm = () => {
@@ -46,40 +60,39 @@ const ValidatePage = () => {
                     <Row>
                         <Col xs={12} md={6} lg={6}> 
                             <div className="float-left">
-                                <BubbleModule imgsrc="https://cdn-icons-png.flaticon.com/512/3652/3652314.png" text="LEARN"/>
-                                {/* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
-
+                                <BubbleModule imgsrc={learnLogo} text="LEARN"/>
                             </div>
                         </Col>
                         <Col xs={12} md={6} lg={6}>
                             <div className="float-right">
-                                <BubbleModule imgsrc="https://cdn-icons-png.flaticon.com/512/2540/2540832.png" text="NEWS"/>
+                                <BubbleModule imgsrc={newsLogo} text="NEWS"/>
                             </div> 
                         </Col>
                     </Row>
                     <Row>
                         <Col className="mx-auto" xs={9} md={8} lg={6}>
-                            <div className="mx-auto mt-5 mb-5 bg-secondary p-5 rounded-circle">     
+                            <div className="mx-auto mt-5 mb-5 p-5 rounded-circle search-bubble">     
                                 <div>
                                 <h1>VALIDATE</h1>
                                 <h2>YOUR COIN:</h2>
                                 </div>
                                 <Form className='d-flex'>
-                                        <Form.Control type="text" placeholder="Verify Coin:" onChange={e => {coin = e.target.value; setSearchColor("primary"); setSearch("Search")}}/>
-                                        <Button variant={searchColor} onClick={searchCoin}>{searchState}</Button>
+                                        <Form.Control type="text" placeholder="Verify Coin:" onChange={e => {coin = e.target.value; 
+                                                    setSearchColor("primary"); setSearch("Search")}} onKeyPress={e => {if (e.key === "Enter") enterSearchCoin(e)}}/>
+                                        <Button type="submit" variant={searchColor} onClick={searchCoin}>{searchState}</Button>
                                 </Form>
                                 <Row>
                                     <Col xs={6} md={3} lg={3}>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/1490/1490900.png" alt="BTC" onClick={()=>quickVerify("BTC")} style={{width: "70px", height: "70px", margin:"5px"}}/>
+                                        <img src={btcLogo} alt="BTC" onClick={()=>quickVerify("BTC")} className="quick-search-coins"/>
                                     </Col>
                                     <Col xs={6} md={3} lg={3}>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/2586/2586005.png" alt="ETH" onClick={()=>quickVerify("ETH")} style={{width: "70x", height: "70px", margin:"5px"}}/>
+                                        <img src={ethLogo} alt="ETH" onClick={()=>quickVerify("ETH")} className="quick-search-coins"/>
                                     </Col>
                                     <Col xs={6} md={3} lg={3}>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/4964/4964811.png" alt="DOGE" onClick={()=>quickVerify("DOGE")} style={{width: "70px", height: "70px", margin:"5px"}}/>
+                                        <img src={dogeLogo} alt="DOGE" onClick={()=>quickVerify("DOGE")} className="quick-search-coins"/>
                                     </Col>
                                     <Col xs={6} md={3} lg={3}>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/4935/4935048.png" alt="LTC" onClick={()=>quickVerify("LTC")} style={{width: "70px", height: "70px", margin:"5px"}}/>
+                                        <img src={ltcLogo} alt="LTC" onClick={()=>quickVerify("LTC")} className="quick-search-coins"/>
                                     </Col>
                                 </Row>
                             </div>
@@ -89,12 +102,12 @@ const ValidatePage = () => {
                     <Row>
                         <Col xs={12} md={6} lg={6}> 
                             <div className="float-left">
-                                <BubbleModule imgsrc="https://cdn-icons-png.flaticon.com/512/2751/2751671.png" text="INFLUENCER ACTIVITY"/>
+                                <BubbleModule imgsrc={influencerLogo} text="INFLUENCER ACTIVITY"/>
                             </div>
                         </Col>
                         <Col xs={12} md={6} lg={6}> 
                             <div className="float-right">
-                                <BubbleModule imgsrc="https://cdn-icons-png.flaticon.com/512/3132/3132084.png" text="SETTINGS"/>
+                                <BubbleModule imgsrc={aboutLogo} text="ABOUT US"/>
                             </div>
                         </Col>
                     </Row>
@@ -103,8 +116,6 @@ const ValidatePage = () => {
         )
     }
 
-    // All styles will be put into a css file...
-    // Also an images folder will be created...
     return(
         <div>
             {renderForm()}

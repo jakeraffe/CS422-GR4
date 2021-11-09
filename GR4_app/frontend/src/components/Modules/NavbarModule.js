@@ -1,27 +1,26 @@
 import React from "react";
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
+import "./Styles/nav.css";
 
 const NavbarModule = () => {
 
     // Styles will be added to a styles css file...
     return(
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar className="color-nav" expand="lg">
             <Container>
-                <Navbar.Brand style={{marginRight: "4rem", fontSize: "1.1rem"}} href="/">Validate Coin</Navbar.Brand>
+                <Navbar.Brand href="/">Validate Coin</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                
                 <Navbar.Collapse id="basic-navbar-nav">
-               
                 <Nav className="me-auto">
-                    <NavDropdown style={{marginRight: "4rem", fontSize: "1.1rem"}} title="Learn" id="basic-nav-dropdown">
+                    <NavDropdown title="Learn" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/Learn">Learn</NavDropdown.Item>
                     <NavDropdown.Item href="">Quizzes</NavDropdown.Item>
-                    <NavDropdown.Item href="">....</NavDropdown.Item>
                     </NavDropdown>
-                    {/* <Nav.Link href="/">Validate Coin</Nav.Link> */}
-                    <Nav.Link style={{marginRight: "4rem", fontSize: "1.1rem"}} href="/News">News</Nav.Link>
-                    <Nav.Link style={{marginRight: "4rem", fontSize: "1.1rem"}} href="/Influencer-Activity">Influencer-Activity</Nav.Link>
-                    <Nav.Link style={{marginRight: "4rem", fontSize: "1.1rem"}} href="">Settings</Nav.Link>
+
+                    <Nav.Link href="/News">News</Nav.Link>
+                    <Nav.Link href="/Influencer-Activity">Influencer-Activity</Nav.Link>
+                    <Nav.Link href="/About-Us">About Us</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

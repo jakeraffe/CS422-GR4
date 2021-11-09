@@ -1,6 +1,7 @@
 import React from "react";
 import {Button} from "react-bootstrap";
 import { useHistory } from "react-router-dom";
+import "./Styles/bubble.css";
 
 
 const BubbleModule = (props) => {
@@ -14,15 +15,17 @@ const BubbleModule = (props) => {
             history.push("/News");
         } else if (props.text === "INFLUENCER ACTIVITY") {
             history.push("/Influencer-Activity");
-        } else if (props.text === "SETTINGS") {
-            // Not implemented yet!
+        } else if (props.text === "ABOUT US") {
+            history.push("/About-Us");
+        } else if (props.text === "SCAM" || props.text === "VALID") {
+            window.open("https://help.coinbase.com/en/coinbase/privacy-and-security/avoiding-phishing-and-scams/avoiding-cryptocurrency-scams","_blank");
         }
     }
     
     // All styles will be put into a css file...
     return(
-        <Button className="bg-secondary rounded-circle" style={{width: "250px", height: "250px"}} onClick={redirectClick}>
-            <img src={props.imgsrc} alt={props.text} style={{width: "150px", height: "150px", objectFit:"contain", margin:"8px"}}/>
+        <Button className="rounded-circle btn-bubble" onClick={redirectClick}>
+            <img src={props.imgsrc} alt={props.text} className="img-inner-bubble"/>
             <p className="text-center">{props.text}</p>
         </Button>
     )
