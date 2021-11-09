@@ -1,14 +1,11 @@
-import react from "react";
+import React from "react";
 
-const TitleBarModule = () => {
-
-
-    return(
-        <div>
-            <h2>Title Bar Component</h2>
-            <p>More text</p>
-        </div>
-    )
-}
+const TitleBarModule = (props) => {
+  return (
+    <div>
+      <h2>{props.title}</h2>
+    </div>
+  );
+};
 
 export default TitleBarModule;
