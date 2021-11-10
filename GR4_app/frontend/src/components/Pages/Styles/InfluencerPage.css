@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+.body{
+    background-color: #F7F5FB;
+}
+
+.influencerActivityTitle{
+
+    background-color: #6E75A8;
+    color: #F9AB55;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    height: 30%;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.filterSM{
+
+    background-color: #6E75A8;
+    color: #F9AB55;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 50px;
+
+}
