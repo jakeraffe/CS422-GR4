@@ -22,14 +22,14 @@ const InfluencerPage = () => {
                 <Container className="mt-5 mb-5">
                     <Row>
                         <Col className="influencerActivityTitle">
-                            <div className="mx-auto mt-5 mb-5 p-5 rounded-square search-bubble">
+                            <div>
                                 <h1>Influencer Activity</h1>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col className="filterSM">
-                            <div className="mx-auto mt-5 mb-5 p-5 rounded-square search-bubble">
+                            <div>
                                 <div className="float-left">
                                     <h1>filter by:</h1>
                                 </div>
