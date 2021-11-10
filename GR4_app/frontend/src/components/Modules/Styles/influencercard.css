@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+.influencer-card{
+
+    background-color: #6E75A8;
+    color: #F9AB55;
+    margin: 5px;
+}
+
+.card-title{
+
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.card-subtitle{
+
+    text-align: left;
+
+}
+
+.safe-coins-header{
+
+    text-decoration: underline;
+
+}
+
+.scam-coins-header{
+
+    text-decoration: underline;
+
+}
+
+
+
