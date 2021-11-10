@@ -22,14 +22,12 @@ const BubbleModule = (props) => {
         }
     }
     
-    // All styles will be put into a css file...
     return(
-        <Button className="rounded-circle btn-bubble" onClick={redirectClick}>
+        <button className="rounded-circle btn-bubble" onClick={redirectClick}>
             <img src={props.imgsrc} alt={props.text} className="img-inner-bubble"/>
             <p className="text-center">{props.text}</p>
-        </Button>
+        </button>
     )
 }
 
 export default BubbleModule;
-

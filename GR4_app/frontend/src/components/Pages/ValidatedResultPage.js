@@ -9,7 +9,7 @@ import notScamLogo from "./Images/check.png";
 import scamLogo from "./Images/cancel.png";
 import scamGraph from "./Images/scam-graph.png";
 import legitGraph from "./Images/legit-graph.jpg";
-import ReactPlayer from 'react-player'
+import VideoPlayerNewsVRModule from "../Modules/VideoPlayerNewsVR";
 
 
 const ValidatedResultsPage = () => {
@@ -105,10 +105,10 @@ const ValidatedResultsPage = () => {
             <Container fluid="md" className="mt-5 mb-5"> 
                 <TitleBarModule title={coinReceived}/>
                 <Row className="mt-5 mb-5">
-                    <Col xs={12} md={6} lg={6}> 
+                    <Col xs={12} md={12} lg={6}> 
                         <BubbleModule imgsrc={logo} text={statusCoin}/>
                     </Col>
-                    <Col xs={12} md={6} lg={6}>
+                    <Col xs={12} md={12} lg={6}>
                         <Modal.Dialog className="card-info">
                             <Modal.Body>
                             <img src={coinObj.priceGraph} alt="Price Graph" className="img-graph mx-auto"/>
@@ -117,32 +117,11 @@ const ValidatedResultsPage = () => {
                     </Col>
                 </Row>
                 <Row className="mt-5 mb-5">
-                    <Col xs={12} md={6} lg={6}>
-                        <Modal.Dialog className="card-info">
-                            <Modal.Header>
-                                <Modal.Title><h4>{coinObj.techinque.title}</h4></Modal.Title>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <Row>
-                                    <Col xs={8} md={6} lg={6}>
-                                        <p><q>{coinObj.techinque.description}</q></p>
-                                        <a href={coinObj.techinque.descriptionCite} target="blank"><span>-source</span></a>
-                                    </Col>
-                                    <Col xs={8} md={6} lg={6}>
-                                        <div className='player-wrapper'>
-                                            <ReactPlayer
-                                            className='react-player'
-                                            url={coinObj.techinque.video}
-                                            width='100%'
-                                            height='100%'
-                                            />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </Modal.Body>
-                        </Modal.Dialog>
+                    <Col xs={12} md={12} lg={6}>
+                        <VideoPlayerNewsVRModule title={coinObj.techinque.title} description={coinObj.techinque.description}
+                         cite={coinObj.techinque.descriptionCite} vidurl={coinObj.techinque.video}/>
                     </Col>
-                    <Col xs={12} md={6} lg={6}> 
+                    <Col xs={12} md={12} lg={6}> 
                         <Modal.Dialog className="card-info">
                             <Modal.Header>
                                 <Modal.Title><h4>ABOUT {coinReceived}</h4></Modal.Title>

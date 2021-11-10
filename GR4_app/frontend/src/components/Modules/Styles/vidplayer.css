@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
-
-body{
-    background-color: #F7F5FB;
-}
-
-.coin-info {
+.m-info {
+    /* background-color: #6E75A8; */
     color: #F9AB55;
     font-family: 'Nunito Sans', sans-serif;
     width:60%;
@@ -13,7 +8,7 @@ body{
 }
 
 
-.card-info .modal-content {
+.m-info .modal-content {
     background-color: #6E75A8;
     color: #F9AB55;
     font-family: 'Nunito Sans', sans-serif;
@@ -21,22 +16,25 @@ body{
     text-align: left;
 }
 
-.card-info a{
+.m-info a{
     color: #F9AB55;
 }
 
-.card-info  span{
+.m-info  span{
     color: #F7F5FB;
 }
 
-.card-info h4{
+.m-info h4{
     color: #F58A07;
 }
 
-.img-graph {
-    height: auto;
-    width: auto;
-    max-height: 440px;
-    max-width: 440px;
-}
 
+.player-wrapper {
+    padding-top: 60% 
+}
+  
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
