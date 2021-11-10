@@ -1,13 +1,22 @@
-import react from "react";
+import React from "react";
+import {Card} from "react-bootstrap";
 
-const InfluencerCardModule = () => {
+const InfluencerCardModule = (props) => {
 
 
     return(
-        <div>
-            <h2>Influencer Card Module component</h2>
-            <p>More text</p>
-        </div>
+        <Card style={{width: '18rem'}}>
+            <Card.Img variant="top" src={props.imgsrc} className="photo" fluid/>
+            <Card.Body>
+                {/* Influencer name goes here */}
+                <Card.Title>{props.text}</Card.Title>
+                {/* Social Media Influencer uses goes here */}
+                <Card.Subtitle>{props.text}</Card.Subtitle>
+                <Card.Text>
+                    Info goes here
+                </Card.Text>
+            </Card.Body>
+        </Card> 
     )
 }
 
