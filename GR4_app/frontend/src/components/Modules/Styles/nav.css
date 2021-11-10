@@ -9,7 +9,7 @@
 .color-nav .nav,
 .color-nav .navbar-nav .nav-link,
 .color-nav .navbar-text {
-    color: #F9AB55;
+    color: #F9AB55 !important;
     margin-right: 4rem;
     font-size: 1.1rem;
     font-family: 'Nunito Sans', sans-serif;
@@ -20,7 +20,5 @@
 .color-nav .navbar-brand:hover,
 .color-nav .nav:hover,
 .color-nav .navbar-nav .nav-link:hover{
-    color: #F7F5FB;
+    color: #F7F5FB !important;
 }
-
-
