@@ -95,6 +95,13 @@ const InfluencerPage = () => {
                             </CardGroup>
                         </Col>
                     </Row>
+                    <Row>
+                        <Col>
+                            <div>
+                                <InfluencerCardModule imgsrc={elonMuskLogo} text="Elon Musk" text2="Twitter" text3="Bitcoin, Etherum" text4="WhyCoin"/>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
             </>
         )
