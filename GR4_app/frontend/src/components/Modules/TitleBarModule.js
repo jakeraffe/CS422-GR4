@@ -1,9 +1,10 @@
 import React from "react";
+import "./Styles/title.css";
 
 const TitleBarModule = (props) => {
   return (
-    <div>
-      <h2>{props.title}</h2>
+    <div className="title">
+      <h1>{props.title}</h1>
     </div>
   );
 };
