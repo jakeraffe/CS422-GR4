@@ -10,7 +10,7 @@
     color: #F9AB55;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
-    height: 30%;
+    height: 20%;
     padding: 5px;
     margin: 10px;
 
@@ -24,5 +24,7 @@
     padding: 5px;
     margin: 10px;
     margin-bottom: 50px;
+    height: 30%;
 
 }
+
