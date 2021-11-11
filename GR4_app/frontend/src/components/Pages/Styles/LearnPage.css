@@ -1,9 +1,10 @@
-.button{
-    margin-top: 1em;
-}
-
 /* Learn Page CSS */
 /* ########################## */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
 .learn_page_semi-circle{
     position: relative;
     transform: translate(100%, -20%);
@@ -16,9 +17,16 @@
     /* transform: rotate(-135deg);  */
 }
 
-#bubble_prog{
-    margin-top: 3em;
+.bubble_prog{
+    margin-top: .8em;
+    font-size: medium;
+    margin-left: -.5em;
 }
-.learn_page_semi-circle h3 {
+.bubble_pts{
+    margin-top: -2em;
+    font-size: medium;
+    margin-left: -3em;
+}
+/* .learn_page_semi-circle h3 {
     padding-top: 50px;
-}
+} */
