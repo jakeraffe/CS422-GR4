@@ -6,7 +6,6 @@
 
 .influencerActivityTitle{
 
-    background-color: #6E75A8;
     color: #F9AB55;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
@@ -16,11 +15,10 @@
 
 }
 
-.filterSM{
+.filterRow{
 
-    background-color: #6E75A8;
-    color: #F9AB55;
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 12pt;
     padding: 5px;
     margin: 10px;
     margin-bottom: 50px;
@@ -28,3 +26,35 @@
 
 }
 
+.filterHeading{
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18pt;
+    color: black;
+
+}
+
+.card{
+
+    margin-right: 20px;
+    width: min-content;
+
+}
+
+.card-title{
+
+    text-align: center;
+    font-size: 13pt;
+}
+
+.card-body-text{
+
+    text-align: left;
+    font-size: 10pt;
+}
+
+.influencerMHeader{
+
+    text-align: center;
+
+}
