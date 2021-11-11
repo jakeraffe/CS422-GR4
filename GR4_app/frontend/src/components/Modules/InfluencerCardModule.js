@@ -12,7 +12,7 @@ const InfluencerCardModule = (props) => {
                 {/* Influencer name goes here */}
                 <Card.Title className="card-title">{props.text}</Card.Title>
                 {/* Social Media Influencer uses goes here */}
-                <Card.Subtitle className="card-subtitle">{props.text2}</Card.Subtitle>
+                <Card.Subtitle className="card-subtitle">Social Media: {props.text2}</Card.Subtitle>
                 <Card.Text>
                     <Row>
                         <Col>
