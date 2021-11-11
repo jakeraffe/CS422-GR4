@@ -2,9 +2,8 @@
 
 .influencer-card{
 
-    background-color: #6E75A8;
-    color: #F9AB55;
     margin: 5px;
+    
 }
 
 .card-title{
@@ -17,18 +16,21 @@
 .card-subtitle{
 
     text-align: left;
+    margin-bottom: 10px;
 
 }
 
 .safe-coins-header{
 
     text-decoration: underline;
+    margin-bottom: 10px;
 
 }
 
 .scam-coins-header{
 
     text-decoration: underline;
+    margin-bottom: 10px;
 
 }
 
