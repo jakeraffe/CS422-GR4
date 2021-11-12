@@ -3,6 +3,8 @@ import { Button, Modal} from 'react-bootstrap';
 import "./Styles/LearnVideoCardModule.css"
 const LearnVideoCardModule = (props) => {
     var source_builder = "//www.youtube.com/embed/" + props.source
+    var title = props.title;
+    var body = props.body
     const gotoquiz = () =>{
         return (
             "Go to Quiz -->"
@@ -10,11 +12,11 @@ const LearnVideoCardModule = (props) => {
     }
 
     return(
-        <Modal.Dialog className="my-modal">
+        <Modal.Dialog className="my-modal ">
             <Modal.Header>
             <div class="row justify-content-left">
                 <div className="col-10">
-                    <Modal.Title>Lecture 1: Crypto Basics</Modal.Title>
+                    <Modal.Title>{title}</Modal.Title>
                 </div>
                 <div className="col-2 text-right">
                 <button type="button" class="btn btn-primary">{gotoquiz()}</button>
@@ -25,7 +27,7 @@ const LearnVideoCardModule = (props) => {
             <Modal.Body>
                 <div class="row">
                     <div class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet, no eos suas ullamcorper, veniam commodo equidem ad pro. Sed etiam omittantur cu. </p>
+                        <p>{body}</p>
                     </div>
                     <div class="col-md-6">
                     <iframe id="Video" width="180px" height="90px" src={source_builder} frameborder="0" allowfullscreen></iframe> 
