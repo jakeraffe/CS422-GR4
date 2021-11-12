@@ -23,7 +23,7 @@ Jacob Raffe
 > (jraffe2) @jakeraffe
 
 Veronica Grosso
-> () @Veronica-gg
+> (vgross3) @Veronica-gg
 
 Arturo Vazquez
 > (avazqu48) ArtyVazquez
