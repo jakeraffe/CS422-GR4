@@ -11,8 +11,11 @@ const NewsPage = () => {
   return (
     <Container fluid="md" className="mt-5 mb-5">
       <TitleBarModule title="News" />
-      <Row>
-        <Col className="justify-content-center" style={{marginLeft: "24em", marginTop: "1em"}}>
+      <Row className="filterRow">
+        <Col
+          className="filterCol"
+          // style={{ marginLeft: "24em", marginTop: "1em" }}
+        >
           <FilterModule />
         </Col>
       </Row>

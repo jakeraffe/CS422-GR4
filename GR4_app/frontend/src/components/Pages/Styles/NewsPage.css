@@ -2,3 +2,10 @@ body {
   background-color: #f7f5fb;
   /* background-color: #E8E2F3; */
 }
+
+#filterRow {
+  text-align: center;
+}
+#filterCol {
+  text-align: center;
+}
