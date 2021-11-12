@@ -2,7 +2,7 @@
 
 ## Instructions for Professor and Grading
 ------------------------------------------
-## Dependincies:
+## Dependencies:
 ### First install node.js via the web. After cloaning the repository, navigate to the projects directory and install yarn as seen below. Then follow the instructions below to run the project.
 
 ```node.js```
