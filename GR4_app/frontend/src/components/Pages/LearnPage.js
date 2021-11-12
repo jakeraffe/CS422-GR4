@@ -13,7 +13,7 @@ const LearnPage = () => {
             <div className="row justify-content-center"/*title, filter and bubble score div*/>
                 <div className="col"></div>
                 <div className="col title" style={{marginTop: "2.6em", marginLeft: "-.2em"}}>
-                    <TitleBarModule title="Learn" />
+                    <TitleBarModule title="Learn Page" />
                 </div>
                 <div className="col text-right">
                     <button className="rounded-circle btn-bubble">
@@ -25,7 +25,8 @@ const LearnPage = () => {
                 </div>
             </div>
             <div className="row justify-content-center"/*title, filter and bubble score div*/>
-                <div className="col-6" style={{marginTop: "-6em", marginLeft: "4.8em"}} >
+                <div className="col"></div>
+                <div className="col" style={{marginTop: "-5em", marginLeft: "-30em"}}>
                     <FilterModule array={filter_array}/>
                 </div>
             </div>
