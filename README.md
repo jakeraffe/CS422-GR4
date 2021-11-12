@@ -11,9 +11,10 @@ App.js
     <LearnPage/>
 </Route>
 ```
+## There is a ```Pages.css``` file in the pages folder that will allow you to edit the css of whatever page you are working on. Just declare a class or id in the file and it should be instantly reflected by the component. 
 ## Starting the program
 ## To start the program and see it in the browser, make sure you are in the frontend/ folder and run ```yarn start```.
-## 3. There is a ```Pages.css``` file in the pages folder that will allow you to edit the css of whatever page you are working on.
+
 
 
 ## Member Names:

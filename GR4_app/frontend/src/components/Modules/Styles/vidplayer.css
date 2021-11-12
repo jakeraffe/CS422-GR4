@@ -1,0 +1,40 @@
+.m-info {
+    /* background-color: #6E75A8; */
+    color: #F9AB55;
+    font-family: 'Nunito Sans', sans-serif;
+    width:60%;
+    text-align: left;
+    padding: 5px;
+}
+
+
+.m-info .modal-content {
+    background-color: #6E75A8;
+    color: #F9AB55;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+    text-align: left;
+}
+
+.m-info a{
+    color: #F9AB55;
+}
+
+.m-info  span{
+    color: #F7F5FB;
+}
+
+.m-info h4{
+    color: #F58A07;
+}
+
+
+.player-wrapper {
+    padding-top: 60% 
+}
+  
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

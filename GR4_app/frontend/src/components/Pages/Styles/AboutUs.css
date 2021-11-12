@@ -1,0 +1,52 @@
+#myHeader {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  color: #f9ab55;
+  text-align: center;
+  font-weight: bold;
+  /* background-color: #6E75A8; */
+}
+p {
+  margin-left: 15%;
+  text-align: left;
+}
+#myHeader2 {
+  /* margin-top: 10%; */
+  color: #f9ab55;
+  font-weight: bold;
+}
+h6 {
+  text-align: right;
+  justify-content: right;
+  vertical-align: middle;
+  padding-top: 4px;
+}
+#myHeader3 {
+  margin-top: 2%;
+  color: #f9ab55;
+  text-align: center;
+  /* margin-left: 40%;
+    margin-right: 40%; */
+}
+
+a {
+  color: gray;
+  text-align: left;
+  justify-content: left;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+/* #header2{
+      color: #6E75A8;
+  } */
+
+#myTable {
+  margin-left: 15%;
+  margin-right: 10%;
+}
+#myTable td {
+  min-width: 180px;
+}

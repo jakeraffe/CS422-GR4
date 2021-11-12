@@ -1,0 +1,11 @@
+.btn-space {
+  margin-right: 8px;
+}
+.margins {
+  margin-right: 1.2em;
+  margin-left: 0;
+}
+.row {
+  justify-content: center;
+  text-align: center;
+}
