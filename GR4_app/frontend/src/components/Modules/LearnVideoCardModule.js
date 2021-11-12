@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Modal} from 'react-bootstrap';
-import "./Styles/LearnVideoModule.css"
+import "./Styles/LearnVideoCardModule.css"
 const LearnVideoCardModule = (props) => {
     var source_builder = "//www.youtube.com/embed/" + props.source
     const gotoquiz = () =>{
