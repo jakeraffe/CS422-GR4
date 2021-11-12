@@ -1,7 +1,7 @@
 # CS422-GR4
 
-##Dependincies:
-#First install node.js via the web. After cloaning the repository, navigate to the projects directory and install yarn as seen below. Then follow the instructions below to run the project.
+## Dependincies:
+### First install node.js via the web. After cloaning the repository, navigate to the projects directory and install yarn as seen below. Then follow the instructions below to run the project.
 
 ```node.js```
 ```npm install --global yarn```
