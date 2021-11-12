@@ -45,7 +45,7 @@ const InfluencerPage = () => {
                     <Row>
                         <Col className="filterRow">
                             <div>
-                                <div className="filterModule">
+                                <div className="filterModule" style={{marginLeft: "21em"}}>
                                     <FilterModule/>
                                 </div>
                             </div>

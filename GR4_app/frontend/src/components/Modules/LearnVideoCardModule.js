@@ -26,11 +26,11 @@ const LearnVideoCardModule = (props) => {
 
             <Modal.Body>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <p>{body}</p>
                     </div>
-                    <div class="col-md-6">
-                    <iframe id="Video" width="180px" height="90px" src={source_builder} frameborder="0" allowfullscreen></iframe> 
+                    <div class="col-md-5">
+                    <iframe id="Video" width="200px" height="140px" src={source_builder} frameborder="0" allowfullscreen></iframe> 
                     </div>
                 </div>
             </Modal.Body>
