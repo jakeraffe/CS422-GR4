@@ -45,10 +45,7 @@ const InfluencerPage = () => {
                     <Row>
                         <Col className="filterRow">
                             <div>
-                                <div className="float-left">
-                                    <h1 className="filterHeading">filter by:</h1>
-                                </div>
-                                <div className="filterModule">
+                                <div className="filterModule" style={{marginLeft: "21em"}}>
                                     <FilterModule/>
                                 </div>
                             </div>
