@@ -1,0 +1,6 @@
+.my-modal {
+    display: flex;
+    width: 600px;    /* Occupy the 90% of the screen width */
+    max-width: 600px;
+    min-width: none;
+} 
