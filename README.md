@@ -1,12 +1,23 @@
 # CS422-GR4
 
+## Instructions for Professor and Grading
+------------------------------------------
 ## Dependincies:
 ### First install node.js via the web. After cloaning the repository, navigate to the projects directory and install yarn as seen below. Then follow the instructions below to run the project.
 
 ```node.js```
 ```npm install --global yarn```
 
-## Installation and best practices.
+### Next please run ```git pull``` to make sure you have all the uploaded code.
+
+### Running the project
+------------------------------------------
+### Navigate to the ```/frontend``` folder. You must run ```yarn install``` to install all packages and dependencies. After all are installed run ```yarn run``` and the site should automatically load in your browser on localhost:5500
+
+
+
+## Instructions for Project team (Instructors do not need to read)
+## Installation and best practices for editing project
 ## Please make sure you are in the dev branch and that you do a ```git pull``` before making any changes (otherwise you will have to deal with merge conflicts). Navigate to the ```/frontend``` folder. You must run ```yarn install``` to install all packages and dependencies before testing your code.
 
 ## Making changes
