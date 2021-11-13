@@ -24,7 +24,7 @@ const LearnPage = () => {
           <TitleBarModule title="Learn Page" />
         </div>
         <div className="col text-right">
-          <button className="rounded-circle btn-bubble">
+          <button className="rounded-circle btn-bubble-points">
             <div className="text-center">
               <h3> Progress: 25%</h3>
               <h3>Points: 105</h3>
