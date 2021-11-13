@@ -15,9 +15,10 @@ const NavbarModule = () => {
           <Nav className="w-100 nav-justified">
             
             <Nav.Item>
-              <NavDropdown title="Learn" id="basic-nav-dropdown">
-                <NavDropdown.Item exact to="./Pages/Learn">Learn</NavDropdown.Item>
-              </NavDropdown>
+              {/* <NavDropdown title="Learn" id="basic-nav-dropdown"> */}
+                <NavLink className="nlink" exact to="/Learn">Learn</NavLink>
+                {/* <NavDropdown.Item><NavLink exact to="/">Quizzes</NavLink></NavDropdown.Item> */}
+              {/* </NavDropdown> */}
             </Nav.Item>
 
             <Nav.Item>
