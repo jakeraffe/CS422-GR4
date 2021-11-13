@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import "./Styles/nav.css";
+import { NavLink } from 'react-router-dom'
 
 const NavbarModule = () => {
   return (
@@ -10,26 +11,28 @@ const NavbarModule = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
+
           <Nav className="w-100 nav-justified">
+            
             <Nav.Item>
               <NavDropdown title="Learn" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/Learn">Learn</NavDropdown.Item>
-                <NavDropdown.Item href="">Quizzes</NavDropdown.Item>
+                <NavDropdown.Item exact to="./Pages/Learn">Learn</NavDropdown.Item>
               </NavDropdown>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/News">News</Nav.Link>
+              <NavLink className="nlink" exact to="/News">News</NavLink>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/Influencer-Activity">
+              <NavLink className="nlink" exact to="/Influencer-Activity">
                 Influencer-Activity
-              </Nav.Link>
+              </NavLink>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/About-Us">About Us</Nav.Link>
+              <NavLink className="nlink" exact to="/About-Us">About Us</NavLink>
             </Nav.Item>
           </Nav>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
