@@ -1,22 +1,17 @@
 .my-modal {
-    display: flex;
-    width: 600px;    /* Occupy the 90% of the screen width */
-    max-width: 600px;
-    min-width: none;
-} 
-.my-modal {
-    display: flex;
-    width: 600px;    /* Occupy the 90% of the screen width */
-    max-width: 600px;
-    min-width: none;
-} 
+  display: flex;
+  width: 600px; /* Occupy the 90% of the screen width */
+  max-width: 600px;
+  min-width: none;
+  text-align: left;
+}
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(605px, 1fr));
-    align-items: stretch;
-    object-fit: cover;
-    padding: 1em;
-    gap: 1em;
-    overflow: auto;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(605px, 1fr));
+  align-items: stretch;
+  object-fit: cover;
+  padding: 1em;
+  gap: 1em;
+  overflow: auto;
 }

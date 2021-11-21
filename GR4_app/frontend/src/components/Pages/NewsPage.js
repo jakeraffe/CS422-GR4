@@ -18,8 +18,8 @@ const NewsPage = () => {
           <FilterModule />
         </Col>
       </Row>
-      <Row className="mt-5 mb-5 ml-0 mr-0">
-        <Col xs={8} md={6} lg={6}>
+      <Row className="justify-content-center mt-5 mb-5 ml-0 mr-0">
+        <Col xs={12} md={12} lg={6}>
           <VideoPlayerNewsVRModule
             title={"Crypto market size"}
             description={
@@ -33,7 +33,7 @@ const NewsPage = () => {
             }
           />
         </Col>
-        <Col xs={8} md={6} lg={6}>
+        <Col xs={12} md={12} lg={6}>
           <VideoPlayerNewsVRModule
             title={"BitCoin just hit another new all-time high"}
             description={
@@ -48,12 +48,12 @@ const NewsPage = () => {
           />
         </Col>
       </Row>
-      <Row className="mt-5 mb-5 ml-0 mr-0">
-        <Col xs={8} md={6} lg={6}>
+      <Row className="justify-content-center mt-5 mb-5 ml-0 mr-0">
+        <Col xs={12} md={12} lg={6}>
           <VideoPlayerNewsVRModule
             title={"Ethereum is back"}
             description={
-              "Bitcoin has rocketed to an all-time high of nearly $70,000. But investors are even more excited about ethereum, which is now the world's second most valuable cryptocurency. Ethereum, or ether for short, is also trading at record levels."
+              "Bitcoin has rocketed to an all-time high of nearly $70,000. But investors are even more excited about ethereum, which is now the world's second most valuable cryptocurrency. Ethereum, or ether for short, is also trading at record levels."
             }
             cite={
               "https://www.cnn.com/2021/11/10/investing/ethereum-bitcoin-cryptocurrencies/index.html"
@@ -63,7 +63,7 @@ const NewsPage = () => {
             }
           />
         </Col>
-        <Col xs={8} md={6} lg={6}>
+        <Col xs={12} md={12} lg={6}>
           <VideoPlayerNewsVRModule
             title={"Is this a Bitcoin bubble?"}
             description={

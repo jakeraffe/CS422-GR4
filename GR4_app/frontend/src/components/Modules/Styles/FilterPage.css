@@ -9,3 +9,25 @@
   justify-content: center;
   text-align: center;
 }
+.filterBtn {
+  background-color: #6e75a8 !important;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+  outline: none !important;
+}
+.filterBtn:hover,
+.filterBtn:focus,
+.filterBtn:active,
+.filterBtn:focus-visible {
+  background-color: #2d2733 !important;
+  color: #f9ab55 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.filterMenu {
+  background-color: #f7f5fb;
+}
+.filterItem:hover {
+  background-color: #6e75a8;
+  color: white;
+}
