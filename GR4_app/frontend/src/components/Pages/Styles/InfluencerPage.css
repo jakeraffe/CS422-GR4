@@ -37,18 +37,9 @@
   font-size: 10pt;
 }
 
-<<<<<<< HEAD
+.card-body-text {
+  font-size: 9pt;
+}
 .influencerMHeader {
   text-align: center;
 }
-=======
-.card-body-text{
-
-    font-size: 9pt;
-}
-.influencerMHeader{
-
-    text-align: center;
-
-}
->>>>>>> dev

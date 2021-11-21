@@ -3,13 +3,12 @@ import "./Pages.css";
 import "./Styles/NewsPage.css";
 import TitleBarModule from "../Modules/TitleBarModule";
 import FilterModule from "../Modules/FilterModule";
-import VideoPlayerModule from "../Modules/VideoPlayerModule";
 import { Container, Row, Col, Modal } from "react-bootstrap";
 import VideoPlayerNewsVRModule from "../Modules/VideoPlayerNewsVR";
 
 const NewsPage = () => {
   return (
-    <Container fluid="md" className="mt-5 mb-5">
+    <Container fluid="md" className="mt-5 mb-5 ml-0 mr-0">
       <TitleBarModule title="News" />
       <Row className="filterRow">
         <Col
@@ -19,8 +18,8 @@ const NewsPage = () => {
           <FilterModule />
         </Col>
       </Row>
-      <Row className="mt-5 mb-5">
-        <Col xs={12} md={6} lg={6}>
+      <Row className="mt-5 mb-5 ml-0 mr-0">
+        <Col xs={8} md={6} lg={6}>
           <VideoPlayerNewsVRModule
             title={"Crypto market size"}
             description={
@@ -34,7 +33,7 @@ const NewsPage = () => {
             }
           />
         </Col>
-        <Col xs={12} md={6} lg={6}>
+        <Col xs={8} md={6} lg={6}>
           <VideoPlayerNewsVRModule
             title={"BitCoin just hit another new all-time high"}
             description={
@@ -49,8 +48,8 @@ const NewsPage = () => {
           />
         </Col>
       </Row>
-      <Row className="mt-5 mb-5">
-        <Col xs={12} md={6} lg={6}>
+      <Row className="mt-5 mb-5 ml-0 mr-0">
+        <Col xs={8} md={6} lg={6}>
           <VideoPlayerNewsVRModule
             title={"Ethereum is back"}
             description={
@@ -64,7 +63,7 @@ const NewsPage = () => {
             }
           />
         </Col>
-        <Col xs={12} md={6} lg={6}>
+        <Col xs={8} md={6} lg={6}>
           <VideoPlayerNewsVRModule
             title={"Is this a Bitcoin bubble?"}
             description={

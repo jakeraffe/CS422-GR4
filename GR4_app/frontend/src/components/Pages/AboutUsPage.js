@@ -6,9 +6,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const AboutUsPage = () => {
   return (
-    <Container fluid="md" className="mt-5 mb-5">
+    <Container fluid="md" className="mt-5 mb-5 ml-0 mr-0">
       <TitleBarModule title="What we do" />
-      <Row>
+      <Row className="mt-0 mb-0 ml-0 mr-0">
         <table id="myTable">
           <tr>
             <td>
@@ -39,12 +39,12 @@ const AboutUsPage = () => {
           </tr>
         </table>
       </Row>
-      <Row>
+      <Row className="mt-0 mb-0 ml-0 mr-0">
         <Col>
           <h3 id="myHeader3">Contact Us</h3>
         </Col>
       </Row>
-      <Row className="text-left">
+      <Row className="text-left mt-0 mb-0 ml-0 mr-0">
         <Col>
           <h6>Pedro Aviles Aguirre </h6>
         </Col>
@@ -52,7 +52,7 @@ const AboutUsPage = () => {
           <a href="mailto:pavile3@uic.edu">pavile3@uic.edu</a>
         </Col>
       </Row>
-      <Row className="text-left">
+      <Row className="text-left mt-0 mb-0 ml-0 mr-0">
         <Col>
           <h6>Veronica Grosso </h6>
         </Col>
@@ -60,15 +60,15 @@ const AboutUsPage = () => {
           <a href="mailto:vgross3@uic.edu">vgross3@uic.edu</a>
         </Col>
       </Row>
-      <Row className="text-left">
+      <Row className="text-left mt-0 mb-0 ml-0 mr-0">
         <Col>
           <h6>Kidist Gebremedhin </h6>
         </Col>
         <Col>
-          <a href="mailto:Kgebre3@uic.edu">Kgebre3@uic.edu</a>
+          <a href="mailto:kgebre3@uic.edu">kgebre3@uic.edu</a>
         </Col>
       </Row>
-      <Row className="text-left">
+      <Row className="text-left mt-0 mb-0 ml-0 mr-0">
         <Col>
           <h6>Jacob Raffe </h6>
         </Col>
@@ -76,7 +76,7 @@ const AboutUsPage = () => {
           <a href="mailto:jraffe2@uic.edu">jraffe2@uic.edu</a>
         </Col>
       </Row>
-      <Row className="text-left">
+      <Row className="text-left mt-0 mb-0 ml-0 mr-0">
         <Col>
           <h6>Arturo Vazquez </h6>
         </Col>

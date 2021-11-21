@@ -14,7 +14,7 @@ const LearnPage = () => {
   return (
     <div>
       <div
-        className="row justify-content-center" /*title, filter and bubble score div*/
+        className="row justify-content-center mt-0 mb-0 ml-0 mr-0" /*title, filter and bubble score div*/
       >
         <div className="col"></div>
         <div
@@ -33,7 +33,7 @@ const LearnPage = () => {
         </div>
       </div>
       <div
-        className="row justify-content-center" /*title, filter and bubble score div*/
+        className="row justify-content-center mt-0 mb-0 ml-0 mr-0" /*title, filter and bubble score div*/
       >
         {/* <div className="col"></div> */}
         <div className="col" style={{ marginTop: "-5em" }}>
