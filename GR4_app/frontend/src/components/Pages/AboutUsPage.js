@@ -12,19 +12,24 @@ const AboutUsPage = () => {
         <table id="myTable">
           <tr>
             <td>
-              <h2 id="myHeader2">GROUP-14</h2>
+              {/* <h2 id="myHeader2">GROUP-14</h2> */}
+              <button className="rounded-circle btn-bubble-points">
+                <div className="text-center">
+                  <h2 id="myHeader2"> GROUP-14</h2>
+                </div>
+              </button>
             </td>
             <td>
-              <p>
+              <p className="par">
                 We built this application to provide better knowledge on
                 cryptocurrency to those who are interested in starting trading
                 cryptocurrency and to those who are already familiar with it.
               </p>
-              <p>
+              <p className="par">
                 We also want to make a big effort in navigating our users away
                 from scams.
               </p>
-              <p>
+              <p className="par">
                 Our main goal is to make sure users don’t get scammed through
                 cryptocurrency and we hope to accomplish this by providing
                 various resources, so our users have a good understanding of

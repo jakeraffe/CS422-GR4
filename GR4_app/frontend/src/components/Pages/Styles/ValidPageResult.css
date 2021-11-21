@@ -1,42 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
-
-body{
-    background-color: #F7F5FB;
-}
-
 .coin-info {
-    color: #F9AB55;
-    font-family: 'Nunito Sans', sans-serif;
-    width:60%;
-    text-align: left;
-    padding: 5px;
+  color: #f9ab55;
+  font-family: "Nunito Sans", sans-serif;
+  width: 60%;
+  text-align: left;
+  padding: 5px;
 }
-
 
 .card-info .modal-content {
-    background-color: #6E75A8;
-    color: #F9AB55;
-    font-family: 'Nunito Sans', sans-serif;
-    padding: 10px;
-    text-align: left;
+  background-color: #6e75a8;
+  color: #f9ab55;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 10px;
+  text-align: left;
 }
 
-.card-info a{
-    color: #F9AB55;
+.card-info a {
+  color: #f9ab55;
 }
 
-.card-info  span{
-    color: #F7F5FB;
+.card-info span {
+  color: #f7f5fb;
 }
 
-.card-info h4{
-    color: #F58A07;
+.card-info h4 {
+  color: #f58a07;
 }
 
 .img-graph {
-    height: auto;
-    width: auto;
-    max-height: 440px;
-    max-width: 440px;
+  height: auto;
+  width: auto;
+  max-height: 440px;
+  max-width: 440px;
 }
-

@@ -1,24 +1,35 @@
-.button{
-    margin-top: 1em;
+/* All pages styles */
+/* ########################## */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
+
+.button {
+  margin-top: 1em;
+}
+
+body {
+  background-color: #f7f5fb;
+  /* background-color: #E8E2F3; */
+  font-family: "Nunito Sans", sans-serif;
 }
 
 /* Learn Page CSS */
 /* ########################## */
-.learn_page_semi-circle{
-    position: relative;
-    transform: translate(100%, -20%);
-    /* transform: translate(0, 0);  */
-    width: 230px;
-    height: 230px;
-    /* border-radius: 50%; */
-    border-radius: 150px 150px 150px 150px; 
-    background-color: #D8D5F5;
-    /* transform: rotate(-135deg);  */
+.learn_page_semi-circle {
+  position: relative;
+  transform: translate(100%, -20%);
+  /* transform: translate(0, 0);  */
+  width: 230px;
+  height: 230px;
+  /* border-radius: 50%; */
+  border-radius: 150px 150px 150px 150px;
+  background-color: #d8d5f5;
+  /* transform: rotate(-135deg);  */
 }
 
-#bubble_prog{
-    margin-top: 3em;
+#bubble_prog {
+  margin-top: 3em;
 }
 .learn_page_semi-circle h3 {
-    padding-top: 50px;
+  padding-top: 50px;
 }

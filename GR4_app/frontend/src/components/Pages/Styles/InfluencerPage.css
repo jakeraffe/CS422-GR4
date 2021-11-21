@@ -1,52 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
-
-.body{
-    background-color: #F7F5FB;
+.influencerActivityTitle {
+  color: #f9ab55;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  height: 20%;
+  padding: 5px;
+  margin: 10px;
 }
 
-.influencerActivityTitle{
-
-    color: #F9AB55;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: bold;
-    height: 20%;
-    padding: 5px;
-    margin: 10px;
-
+.filterRow {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12pt;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 50px;
+  height: 30%;
 }
 
-.filterRow{
-
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 12pt;
-    padding: 5px;
-    margin: 10px;
-    margin-bottom: 50px;
-    height: 30%;
-
+.filterHeading {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18pt;
+  color: black;
 }
 
-.filterHeading{
-
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 18pt;
-    color: black;
-
+.card {
+  margin-right: 20px;
+  width: min-content;
 }
 
-.card{
-
-    margin-right: 20px;
-    width: min-content;
-
+.card-title {
+  text-align: center;
+  font-size: 13pt;
 }
 
-.card-title{
-
-    text-align: center;
-    font-size: 13pt;
+.card-body-text {
+  text-align: left;
+  font-size: 10pt;
 }
 
+<<<<<<< HEAD
+.influencerMHeader {
+  text-align: center;
+}
+=======
 .card-body-text{
 
     font-size: 9pt;
@@ -56,3 +51,4 @@
     text-align: center;
 
 }
+>>>>>>> dev
