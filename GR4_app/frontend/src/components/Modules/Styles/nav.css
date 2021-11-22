@@ -11,7 +11,7 @@
 .color-nav .navbar-nav .nav-link,
 .color-nav .nlink,
 .color-nav .navbar-text {
-    color: #F9AB55 !important;
+    color: #F9AB55;
     margin-right: 3rem;
     font-size: 1.1rem;
     font-family: 'Nunito Sans', sans-serif;
@@ -23,4 +23,16 @@
 .color-nav .nlink:hover,
 .color-nav .navbar-nav .nav-link:hover{
     color: #F7F5FB !important;
+}
+
+.color-nav .navbar-toggler  {
+    border-color: #F9AB55;
+}
+
+.color-nav .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249,171,85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.color-nav .navbar-toggler:hover  {
+    background-color: #F7F5FB;
 }

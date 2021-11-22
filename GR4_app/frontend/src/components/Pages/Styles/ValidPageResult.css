@@ -15,7 +15,10 @@
 }
 
 .card-info a {
-  color: #f9ab55;
+  text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid blue;
+  color: blue;
 }
 
 .card-info span {

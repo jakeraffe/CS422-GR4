@@ -2,6 +2,7 @@
   background-color: #6e75a8;
   color: #f9ab55;
   font-family: "Nunito Sans", sans-serif;
+  width: 70%;
 }
 
 .quick-search-coins {
@@ -12,4 +13,12 @@
 
 .quick-search-coins:hover {
   transform: scale(1.1);
+}
+
+.validate-coin-label h1{
+  font-size: 6vmin;
+}
+
+.validate-coin-label h2{
+  font-size: 4vmin;
 }

@@ -56,30 +56,30 @@ const ValidatePage = () => {
     const renderForm = () => {
         return(
             <>
-                <Container className="mt-5 mb-5">
+                <div className="mt-4 mb-2">
                     <Row>
                         <Col xs={12} md={6} lg={6}> 
-                            <div className="float-left">
+                            <div className="mx-auto">
                                 <BubbleModule imgsrc={learnLogo} text="LEARN"/>
                             </div>
                         </Col>
                         <Col xs={12} md={6} lg={6}>
-                            <div className="float-right">
+                            <div className="mx-auto">
                                 <BubbleModule imgsrc={newsLogo} text="NEWS"/>
                             </div> 
                         </Col>
                     </Row>
                     <Row>
                         <Col className="mx-auto" xs={9} md={8} lg={6}>
-                            <div className="mx-auto mt-5 mb-5 p-5 rounded-circle search-bubble">     
-                                <div>
-                                <h1>VALIDATE</h1>
-                                <h2>YOUR COIN:</h2>
+                            <div className="mx-auto p-5 rounded-circle search-bubble">     
+                                <div className="validate-coin-label">
+                                    <h1>VALIDATE</h1>
+                                    <h2>YOUR COIN:</h2>
                                 </div>
                                 <Form className='d-flex'>
                                         <Form.Control type="text" placeholder="Verify Coin:" onChange={e => {coin = e.target.value; 
                                                     setSearchColor("primary"); setSearch("Search")}} onKeyPress={e => {if (e.key === "Enter") enterSearchCoin(e)}}/>
-                                        <Button type="submit" variant={searchColor} onClick={searchCoin}>{searchState}</Button>
+                                        <Button variant={searchColor} onClick={searchCoin}>{searchState}</Button>
                                 </Form>
                                 <Row>
                                     <Col xs={6} md={3} lg={3}>
@@ -101,17 +101,17 @@ const ValidatePage = () => {
                     </Row>
                     <Row>
                         <Col xs={12} md={6} lg={6}> 
-                            <div className="float-left">
+                            <div className="mx-auto">
                                 <BubbleModule imgsrc={influencerLogo} text="INFLUENCER ACTIVITY"/>
                             </div>
                         </Col>
                         <Col xs={12} md={6} lg={6}> 
-                            <div className="float-right">
+                            <div className="mx-auto">
                                 <BubbleModule imgsrc={aboutLogo} text="ABOUT US"/>
                             </div>
                         </Col>
                     </Row>
-                </Container>
+                </div>
             </>
         )
     }

@@ -82,7 +82,7 @@ const ValidatedResultsPage = () => {
       website: "https://dogecoin.com/",
       techinque: {
         video: "https://youtu.be/_KVZmS_UO5I",
-        title: "DOGECOIN IS 100% LEGIT",
+        title: "WHAT IS DOGECOIN?",
         description:
           "Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.",
         descriptionCite: "https://dogecoin.com/",
@@ -118,7 +118,7 @@ const ValidatedResultsPage = () => {
   return (
     <>
       <Container fluid="md" className="mt-5 mb-5 ml-0 mr-0">
-        <TitleBarModule title={coinReceived} />
+        <TitleBarModule title={coinObj.name} />
         <Row className="mt-5 mb-5 ml-0 mr-0">
           <Col xs={12} md={12} lg={6}>
             <BubbleModule imgsrc={logo} text={statusCoin} />
@@ -164,9 +164,9 @@ const ValidatedResultsPage = () => {
                 <p>
                   INFLATION: <span>{coinObj.inflation}</span>
                 </p>
-                <a href={coinObj.website} target="blank">
-                  WEBSITE: <span>🖱️</span>
-                </a>
+                 <p>
+                    WEBSITE:<a href={coinObj.website} target="blank">VISIT 🖱️</a>
+                </p>
               </Modal.Body>
             </Modal.Dialog>
           </Col>
