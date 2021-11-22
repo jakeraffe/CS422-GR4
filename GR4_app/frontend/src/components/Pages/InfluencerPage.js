@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Pages.css";
+import TitleBarModule from "../Modules/TitleBarModule";
 import FilterModule from "../Modules/FilterModule";
 import InfluencerCardModule from "../Modules/InfluencerCardModule";
 import {
@@ -41,13 +42,7 @@ const InfluencerPage = () => {
     return (
       <>
         <Container className="mt-5 mb-5">
-          <Row>
-            <Col className="influencerActivityTitle">
-              <div>
-                <h1>Influencer Activity</h1>
-              </div>
-            </Col>
-          </Row>
+          <TitleBarModule title="Influencer Activity" />
           <Row>
             <Col className="filterRow">
               <div>
@@ -72,7 +67,7 @@ const InfluencerPage = () => {
                     <Card.Text className="card-body-text">
                       Social Media: Twitter
                     </Card.Text>
-                    <Button variant="primary" onClick={handleShow}>
+                    <Button className="influencerBtn" onClick={handleShow}>
                       More Information
                     </Button>
                     <Modal show={show} onHide={handleClose}>
@@ -110,7 +105,7 @@ const InfluencerPage = () => {
                     <Card.Text className="card-body-text">
                       Social Media: Instagram
                     </Card.Text>
-                    <Button variant="primary" onClick={handleShow2}>
+                    <Button className="influencerBtn" onClick={handleShow2}>
                       More Information
                     </Button>
                     <Modal show={show2} onHide={handleClose2}>
@@ -146,7 +141,7 @@ const InfluencerPage = () => {
                     <Card.Text className="card-body-text">
                       Social Media: Twitter
                     </Card.Text>
-                    <Button variant="primary" onClick={handleShow3}>
+                    <Button className="influencerBtn" onClick={handleShow3}>
                       More Information
                     </Button>
                     <Modal show={show3} onHide={handleClose3}>
@@ -184,7 +179,7 @@ const InfluencerPage = () => {
                     <Card.Text className="card-body-text">
                       Social Media: Instagram
                     </Card.Text>
-                    <Button variant="primary" onClick={handleShow4}>
+                    <Button className="influencerBtn" onClick={handleShow4}>
                       More Information{" "}
                     </Button>
                     <Modal show={show4} onHide={handleClose4}>
@@ -220,7 +215,7 @@ const InfluencerPage = () => {
                     <Card.Text className="card-body-text">
                       Social Media: Twitter
                     </Card.Text>
-                    <Button variant="primary" onClick={handleShow5}>
+                    <Button className="influencerBtn" onClick={handleShow5}>
                       More Information{" "}
                     </Button>
                     <Modal show={show5} onHide={handleClose5}>

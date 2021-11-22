@@ -17,9 +17,7 @@ const LearnVideoCardModule = (props) => {
             <Modal.Title>{title}</Modal.Title>
           </div>
           <div className="col-2 text-right">
-            <button type="button" class="btn btn-primary">
-              {gotoquiz()}
-            </button>
+            <Button className="quizBtn">{gotoquiz()}</Button>
           </div>
         </div>
       </Modal.Header>

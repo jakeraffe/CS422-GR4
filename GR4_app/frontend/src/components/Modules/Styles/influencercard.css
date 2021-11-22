@@ -2,8 +2,12 @@
 
 .influencer-card {
   margin: 5px;
+  border-radius: 15px;
 }
-
+/* .card, */
+.photo {
+  border-radius: 15px;
+}
 .card-title {
   text-align: left;
   font-weight: bold;

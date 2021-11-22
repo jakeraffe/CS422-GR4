@@ -12,7 +12,9 @@
   min-height: none;
   max-height: max-content;
 }
-
+.md-body {
+  text-align: left;
+}
 .m-info .modal-content {
   background-color: #6e75a8;
   color: #f9ab55;

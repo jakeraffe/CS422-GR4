@@ -34,12 +34,21 @@
 
 .card-body-text {
   text-align: left;
-  font-size: 10pt;
-}
-
-.card-body-text {
   font-size: 9pt;
 }
 .influencerMHeader {
   text-align: center;
+}
+.influencerBtn {
+  background-color: #6e75a8 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.influencerBtn:hover,
+.influencerBtn:focus .influencerBtn:active,
+.influencerBtn:focus-visible {
+  background-color: #2d2733 !important;
+  color: #f9ab55 !important;
+  outline: none !important;
+  box-shadow: none !important;
 }

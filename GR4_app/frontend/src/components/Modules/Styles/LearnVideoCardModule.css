@@ -15,3 +15,18 @@
   gap: 1em;
   overflow: auto;
 }
+
+.quizBtn {
+  color: white !important;
+  background-color: #6e75a8 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.quizBtn:hover,
+.quizBtn:focus .quizBtn:active,
+.quizBtn:focus-visible {
+  background-color: #2d2733 !important;
+  color: #f9ab55 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
