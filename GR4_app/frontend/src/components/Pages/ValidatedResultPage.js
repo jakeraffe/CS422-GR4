@@ -3,7 +3,7 @@ import "./Pages.css";
 import "./Styles/ValidPageResult.css";
 import BubbleModule from "../Modules/BubbleModule";
 import { useLocation } from "react-router-dom";
-import { Container, Row, Col, Modal } from "react-bootstrap";
+import { Container, Row, Col, Modal, Image } from "react-bootstrap";
 import TitleBarModule from "../Modules/TitleBarModule";
 import notScamLogo from "./Images/check.png";
 import scamLogo from "./Images/cancel.png";
@@ -126,10 +126,10 @@ const ValidatedResultsPage = () => {
           <Col xs={12} md={12} lg={6}>
             <Modal.Dialog className="card-info">
               <Modal.Body>
-                <img
+                <Image
                   src={coinObj.priceGraph}
                   alt="Price Graph"
-                  className="img-graph mx-auto"
+                  fluid
                 />
               </Modal.Body>
             </Modal.Dialog>

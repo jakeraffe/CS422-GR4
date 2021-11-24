@@ -5,10 +5,10 @@
   text-align: left;
   padding: 5px;
   display: flex;
-  width: 600px;
+  /* width: 600px; */
   max-width: 600px;
   min-width: none;
-  height: 85%;
+  /* height: 85%; */
   min-height: none;
   max-height: max-content;
 }
@@ -36,11 +36,11 @@
 }
 
 .player-wrapper {
-  padding-top: 60%;
+  padding-top: 10%;
 }
 
 .react-player {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
 }
