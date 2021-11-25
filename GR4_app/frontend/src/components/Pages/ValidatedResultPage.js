@@ -2,7 +2,7 @@ import React from "react";
 import "./Pages.css";
 import "./Styles/ValidPageResult.css";
 import BubbleModule from "../Modules/BubbleModule";
-import { useLocation } from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import { Container, Row, Col, Modal, Image } from "react-bootstrap";
 import TitleBarModule from "../Modules/TitleBarModule";
 import notScamLogo from "./Images/check.png";
