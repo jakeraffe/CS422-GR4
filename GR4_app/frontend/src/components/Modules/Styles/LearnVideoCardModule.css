@@ -6,6 +6,10 @@
   text-align: left;
 }
 
+.modalText {
+  padding-left: 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(605px, 1fr));
@@ -29,4 +33,18 @@
   color: #f9ab55 !important;
   outline: none !important;
   box-shadow: none !important;
+}
+
+.quizForm {
+  padding: 10px;
+  margin-left: 10px;
+}
+.quizModal {
+  font-size: 18px;
+}
+.quizModal-header {
+  padding: 5px 10px;
+}
+.quizModal-body {
+  padding-left: 30px;
 }

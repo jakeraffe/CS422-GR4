@@ -44,27 +44,57 @@ const LearnPage = () => {
         <LearnVideoCardModule
           source="VYWc9dFqROI"
           title="Crypto for Beginners"
-          body="Put simply, cryptocurrencies are like regular currencies except they’re entirely digital. Each individual cryptocurrency coin is fundamentally just a collection of numbers and letters. sThis sounds complicated, but it’s actually not far off from what we see with currencies today. Bills have serial numbers, and bank accounts have account numbers"
+          body="Put simply, cryptocurrencies are like regular currencies except they’re entirely digital. Each individual cryptocurrency coin is fundamentally just a collection of numbers and letters. This sounds complicated, but it’s actually not far off from what we see with currencies today. Bills have serial numbers, and bank accounts have account numbers"
+          quizContent="Cryptocurrency is based on: "
+          label1="No record"
+          label2="Blockchain"
+          label3="Bank transactions"
+          label4="All of the above"
+          // correct="2"
         />
         <LearnVideoCardModule
           source="AFhSf0l_aQQ"
           title="Crypto Scams: Part 1"
-          body="The Ponzi Scheme started before crypto itself and relies on the premise of paying out old users with the money that is being brought on from the new users. There are a number of different Front businesses that will be used in order to justify a ponzi return."
+          body="The Ponzi Scheme started before crypto itself and relies on the premise of paying out old users with the money that is being brought on from the new users. There are a number of different Front businesses that will be used in order to justify a Ponzi return."
+          quizContent="What is a Ponzi Scheme: "
+          label1="Investment fraud"
+          label2="Transaction registration technique"
+          label3="Crypto trading authorization"
+          label4="None of the above"
+          // correct="1"
         />
         <LearnVideoCardModule
           source="SSo_EIwHSd4"
           title="Block Chain Explained"
           body="What is a blockchain and how do they work? I'll explain why blockchains are so special in simple and plain English!"
+          quizContent="Who invented Blockchain: "
+          label1="S. Haber and W.Scott Stornetta"
+          label2="Satoshi Nakamoto"
+          label3="Vitalik Buterin"
+          label4="Elon Musk"
+          // correct="1"
         />
         <LearnVideoCardModule
           source="8uYNOoG41I0"
           title="Crypto and Cloud Storage"
           body="Explore the current cloud storage landscape, define the problems with the popular services, offer the blockchain solution and crypto projects behind them, and envision a future of file storage on the blockchain."
+          quizContent="What is a persistent problem with cloud storage: "
+          label1="Security"
+          label2="Cost"
+          label3="Storage space"
+          label4="Privacy"
+          // correct="4"
         />
         <LearnVideoCardModule
           source="7F_RKFQl3pg"
           title="Crypto Scams: Part 2"
           body="savethekids.io was a disaster and after promoting it as ambassadors during the prelaunch... they quickly abandoned the project. Why did FaZe Clan members even promote this?"
+          quizContent="Who promoted 'Save the kids token': "
+          label1="Government"
+          label2="Influencers"
+          label3="Hackers"
+          label4="Bankers"
+          // correct="2"
         />
       </div>
     </div>
