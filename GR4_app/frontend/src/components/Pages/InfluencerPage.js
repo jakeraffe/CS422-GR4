@@ -18,6 +18,8 @@ import kimKardashianLogo from "./Images/kimk.jpeg";
 import jakePaulLogo from "./Images/jakepaul.jpeg";
 import floydLogo from "./Images/floyd.jpeg";
 import fazeLogo from "./Images/faze.png";
+import twitterLogo from "./Images/twitter.png";
+import instagramLogo from "./Images/instagram.png";
 
 const InfluencerPage = () => {
   const [show, setShow] = useState(false);
@@ -53,6 +55,16 @@ const InfluencerPage = () => {
             </Col>
           </Row>
           <Row>
+            <p className="par">
+              Celebrities/Influencers have a major influence in Cryptocurrency. 
+              Their influence can have positive and/or negative affects.
+              A positive influence influencers can bring to Cryptocurrency is knowledge and awareness to another way of investing income.
+              Some influencers however are paid to promote specific cryptocurrencies without doing their research.
+              Promoting cryptocurrency without the proper research has a negative affect and can disillusion their fanbase into making bad monetary decisions.
+              Use this page to look at celebrities who have used their social media platforms to promote cryptocurrency. 
+            </p>
+          </Row>
+          <Row>
             <Col className="socialMediaCards">
               <CardGroup className="cardGroup">
                 <Card className="card" border="info">
@@ -64,9 +76,15 @@ const InfluencerPage = () => {
                   />
                   <Card.Body>
                     <Card.Title className="card-title">Elon Musk</Card.Title>
-                    <Card.Text className="card-body-text">
+                    {/* <Card.Text className="card-body-text">
                       Social Media: Twitter
-                    </Card.Text>
+                    </Card.Text> */}
+                    <Card.Img
+                      variant="top"
+                      className="photo"
+                      src={twitterLogo}
+                      fluid
+                    /> 
                     <Button className="influencerBtn" onClick={handleShow}>
                       More Information
                     </Button>
@@ -102,9 +120,15 @@ const InfluencerPage = () => {
                     <Card.Title className="card-title">
                       Kim Kadashian
                     </Card.Title>
-                    <Card.Text className="card-body-text">
+                    {/* <Card.Text className="card-body-text">
                       Social Media: Instagram
-                    </Card.Text>
+                    </Card.Text> */}
+                    <Card.Img
+                      variant="top"
+                      className="photo"
+                      src={instagramLogo}
+                      fluid
+                    /> 
                     <Button className="influencerBtn" onClick={handleShow2}>
                       More Information
                     </Button>
@@ -138,9 +162,15 @@ const InfluencerPage = () => {
                   />
                   <Card.Body>
                     <Card.Title className="card-title">Jake Paul</Card.Title>
-                    <Card.Text className="card-body-text">
+                    {/* <Card.Text className="card-body-text">
                       Social Media: Twitter
-                    </Card.Text>
+                    </Card.Text> */}
+                    <Card.Img
+                      variant="top"
+                      className="photo"
+                      src={twitterLogo}
+                      fluid
+                    /> 
                     <Button className="influencerBtn" onClick={handleShow3}>
                       More Information
                     </Button>
@@ -176,9 +206,15 @@ const InfluencerPage = () => {
                     <Card.Title className="card-title">
                       Floyd Mayweather
                     </Card.Title>
-                    <Card.Text className="card-body-text">
+                    {/* <Card.Text className="card-body-text">
                       Social Media: Instagram
-                    </Card.Text>
+                    </Card.Text> */}
+                    <Card.Img
+                      variant="top"
+                      className="photo"
+                      src={instagramLogo}
+                      fluid
+                    /> 
                     <Button className="influencerBtn" onClick={handleShow4}>
                       More Information{" "}
                     </Button>
@@ -212,9 +248,15 @@ const InfluencerPage = () => {
                   />
                   <Card.Body>
                     <Card.Title className="card-title">Faze Clan</Card.Title>
-                    <Card.Text className="card-body-text">
+                    {/* <Card.Text className="card-body-text">
                       Social Media: Twitter
-                    </Card.Text>
+                    </Card.Text> */}
+                    <Card.Img
+                      variant="top"
+                      className="photo"
+                      src={twitterLogo}
+                      fluid
+                    /> 
                     <Button className="influencerBtn" onClick={handleShow5}>
                       More Information{" "}
                     </Button>
