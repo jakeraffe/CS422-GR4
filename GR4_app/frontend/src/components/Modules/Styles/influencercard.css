@@ -1,29 +1,38 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 
-.influencer-card {
+/* .influencer-card {
   margin: 5px;
   border-radius: 15px;
 }
 /* .card, */
-.photo {
+/* .photo {
   border-radius: 15px;
 }
+*/
+
 .card-title {
-  text-align: left;
   font-weight: bold;
 }
 
 .card-subtitle {
+  margin-bottom: 10px;
+}
+
+.r1{
   text-align: left;
-  margin-bottom: 10px;
 }
 
-.safe-coins-header {
+.c1{
+  margin-right: 17%;
+}
+
+.r2{
   text-decoration: underline;
   margin-bottom: 10px;
 }
 
-.scam-coins-header {
-  text-decoration: underline;
-  margin-bottom: 10px;
+.r3{
+  margin-right: 17%;
 }
+
+
