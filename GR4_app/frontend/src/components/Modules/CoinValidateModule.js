@@ -11,6 +11,7 @@ const CoinValidateModule = () => {
     //const [searchState, setSearch] = useState("Search");
     const [btnClass, btnClassName] = useState("custom-btn");
     const [inputText, setInputText] = useState("");
+    const [placeholderText, setPlaceholderText] = useState("Verify Coin:");
 
 
     function searchCoin() {
@@ -25,6 +26,7 @@ const CoinValidateModule = () => {
         } else {
             // setSearch("No Match");
             btnClassName("no-match");
+            setPlaceholderText("No Match!");
         }
         setInputText("");
       }
@@ -32,9 +34,10 @@ const CoinValidateModule = () => {
 
   return (
     <Form className='d-flex'>
-        <Form.Control type="text" placeholder="Verify Coin:" value={inputText} onChange={e => {
+        <Form.Control type="text" placeholder={placeholderText} value={inputText} onChange={e => {
                                                                       setInputText(e.target.value);
-                                                                      btnClassName("custom-btn");}}//setSearch("Search") 
+                                                                      btnClassName("custom-btn");
+                                                                      setPlaceholderText("Verify Coin:");}}//setSearch("Search") 
                                                                       onKeyPress={e => {if (e.key === "Enter") {e.preventDefault();
                                                                                                                 searchCoin()}}}/>
         <Button variant="default" className={btnClass} onClick={searchCoin}>
