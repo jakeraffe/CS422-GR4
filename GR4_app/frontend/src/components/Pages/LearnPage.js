@@ -7,11 +7,16 @@ import "./Styles/LearnPage.css";
 import "../Modules/Styles/title.css";
 
 const LearnPage = () => {
-  const filter_1_array = { Coin: ["Bitcoin", "Litecoin", "Etherium"],
-  "Age-Range": ["0-16", "17-25", "26-35"]};
+  const filter_1_array = {
+    Coin: ["Bitcoin", "Litecoin", "Etherium"],
+    "Age-Range": ["0-16", "17-25", "26-35"],
+  };
 
   var filter_array = {
-    Coin: ["Bitcoin", "Litecoin", "Etherium"], Date: ["Day", "Week", "Two-Week"], Subject: ["Coins", "News"]};
+    Coin: ["Bitcoin", "Litecoin", "Etherium"],
+    Date: ["Day", "Week", "Two-Week"],
+    Subject: ["Coins", "News"],
+  };
   return (
     <div>
       <div
@@ -51,7 +56,7 @@ const LearnPage = () => {
           label2="Blockchain"
           label3="Bank transactions"
           label4="All of the above"
-          // correct="2"
+          correct="answer2"
         />
         <LearnVideoCardModule
           source="AFhSf0l_aQQ"
@@ -62,7 +67,7 @@ const LearnPage = () => {
           label2="Transaction registration technique"
           label3="Crypto trading authorization"
           label4="None of the above"
-          // correct="1"
+          correct="answer1"
         />
         <LearnVideoCardModule
           source="SSo_EIwHSd4"
@@ -73,7 +78,7 @@ const LearnPage = () => {
           label2="Satoshi Nakamoto"
           label3="Vitalik Buterin"
           label4="Elon Musk"
-          // correct="1"
+          correct="answer1"
         />
         <LearnVideoCardModule
           source="8uYNOoG41I0"
@@ -84,7 +89,7 @@ const LearnPage = () => {
           label2="Cost"
           label3="Storage space"
           label4="Privacy"
-          // correct="4"
+          correct="answer4"
         />
         <LearnVideoCardModule
           source="7F_RKFQl3pg"
@@ -95,7 +100,7 @@ const LearnPage = () => {
           label2="Influencers"
           label3="Hackers"
           label4="Bankers"
-          // correct="2"
+          correct="answer2"
         />
       </div>
     </div>

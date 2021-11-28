@@ -38,7 +38,7 @@ const ValidatePage = () => {
   const renderForm = () => {
     return (
       <>
-        <div className="mt-4 mb-2 ml-0 mr-0">
+        <div className="mt-2 mb-1 ml-0 mr-0">
           <Row className="mt-0 mb-0 ml-0 mr-0">
             <Col xs={12} md={6} lg={6}>
               <div className="mx-auto">
