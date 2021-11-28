@@ -22,6 +22,8 @@ import twitterLogo from "./Images/twitter.png";
 import instagramLogo from "./Images/instagram.png";
 
 const InfluencerPage = () => {
+  var filter_array = {
+    Platform: ["Twitter", "Instagram", "Youtube"], Age: ["0-16", "17-25", "25+"], Gender: ["Male", "Female"]};
   const [show, setShow] = useState(false);
   const [show2, setShow2] = useState(false);
   const [show3, setShow3] = useState(false);
@@ -49,7 +51,7 @@ const InfluencerPage = () => {
             <Col className="filterRow">
               <div>
                 <div className="filterModule">
-                  <FilterModule />
+                  <FilterModule array={filter_array}/>
                 </div>
               </div>
             </Col>

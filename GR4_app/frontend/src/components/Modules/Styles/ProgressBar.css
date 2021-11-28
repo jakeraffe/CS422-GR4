@@ -1,0 +1,19 @@
+.progress_circle_svg {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  .progress_circle_outer {
+    fill: none;
+  }
+  
+  .progress_circle_inner {
+    fill: none;
+  }
+  .progress_circle_svg_text {
+   font-size: 2rem;
+    text-anchor: middle;
+    fill: #fff;
+    font-weight: bold;
+  }

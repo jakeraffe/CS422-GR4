@@ -7,6 +7,8 @@ import { Container, Row, Col, Modal } from "react-bootstrap";
 import VideoPlayerNewsVRModule from "../Modules/VideoPlayerNewsVR";
 
 const NewsPage = () => {
+  var filter_array = {
+    Coin: ["Bitcoin", "Litecoin", "Etherium"], Date: ["Day", "Week", "Two-Week"], Subject: ["Coins", "News"]};
   return (
     <Container fluid="md" className="mt-5 mb-5 ml-0 mr-0">
       <TitleBarModule title="News" />
@@ -15,7 +17,7 @@ const NewsPage = () => {
           className="filterCol"
           // style={{ marginLeft: "24em", marginTop: "1em" }}
         >
-          <FilterModule />
+          <FilterModule array={filter_array} />
         </Col>
       </Row>
       <Row className="justify-content-center mt-5 mb-5 ml-0 mr-0">

@@ -7,10 +7,11 @@ import "./Styles/LearnPage.css";
 import "../Modules/Styles/title.css";
 
 const LearnPage = () => {
+  const filter_1_array = { Coin: ["Bitcoin", "Litecoin", "Etherium"],
+  "Age-Range": ["0-16", "17-25", "26-35"]};
+
   var filter_array = {
-    Platform: ["Twitter", "Instagram", "Facebook", "Youtube"],
-    "Age-Range": ["0-16", "17-25", "26-35"],
-  };
+    Coin: ["Bitcoin", "Litecoin", "Etherium"], Date: ["Day", "Week", "Two-Week"], Subject: ["Coins", "News"]};
   return (
     <div>
       <div
