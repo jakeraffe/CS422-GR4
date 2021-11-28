@@ -8,7 +8,10 @@ import VideoPlayerNewsVRModule from "../Modules/VideoPlayerNewsVR";
 
 const NewsPage = () => {
   var filter_array = {
-    Coin: ["Bitcoin", "Litecoin", "Etherium"], Date: ["Day", "Week", "Two-Week"], Subject: ["Coins", "News"]};
+    Coin: ["Bitcoin", "Litecoin", "Etherium"],
+    Date: ["Day", "Week", "Two-Week"],
+    Subject: ["Coins", "News"],
+  };
   return (
     <Container fluid="md" className="mt-5 mb-5 ml-0 mr-0">
       <TitleBarModule title="News" />
@@ -49,8 +52,8 @@ const NewsPage = () => {
             }
           />
         </Col>
-      </Row>
-      <Row className="justify-content-center mt-5 mb-5 ml-0 mr-0">
+        {/* </Row>
+      <Row className="justify-content-center mt-5 mb-5 ml-0 mr-0"> */}
         <Col xs={12} md={12} lg={6}>
           <VideoPlayerNewsVRModule
             title={"Ethereum is back"}

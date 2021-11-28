@@ -22,7 +22,7 @@ const VideoPlayerNewsVRModule = (props) => {
             </a>
           </Col>
           <Col xs={8} md={6} lg={6}>
-            <div className="player-wrapper">
+            <div className="player-wrapper align-items-center">
               <ReactPlayer
                 className="react-player"
                 url={props.vidurl}

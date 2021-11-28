@@ -6,7 +6,7 @@
   padding: 5px;
   display: flex;
   /* width: 600px; */
-  max-width: 600px;
+  max-width: 90%;
   min-width: none;
   /* height: 85%; */
   min-height: none;
@@ -36,7 +36,9 @@
 }
 
 .player-wrapper {
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  max-height: 100%;
 }
 
 .react-player {

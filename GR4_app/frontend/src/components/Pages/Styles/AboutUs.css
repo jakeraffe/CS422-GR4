@@ -38,6 +38,9 @@ a {
   vertical-align: middle;
   padding-left: 30px;
 }
+a:hover {
+  color: #2d2733 !important;
+}
 
 /* #header2{
       color: #6E75A8;

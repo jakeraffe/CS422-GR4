@@ -25,9 +25,9 @@
 }
 
 .filterMenu {
-  background-color: #f7f5fb;
+  background-color: #f7f5fb !important;
 }
 .filterItem:hover {
-  background-color: #6e75a8;
-  color: white;
+  background-color: #6e75a8 !important;
+  color: white !important;
 }

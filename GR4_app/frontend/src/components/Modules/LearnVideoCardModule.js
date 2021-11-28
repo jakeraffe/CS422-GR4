@@ -13,6 +13,7 @@ const LearnVideoCardModule = (props) => {
   var correct = props.correct;
 
   const [show, setShow] = useState(false);
+  const [answer, setAnswer] = useState("");
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -69,6 +70,7 @@ const LearnVideoCardModule = (props) => {
                   name="group1"
                   type="radio"
                   id={`inline-"radio"v-1`}
+                  onChange={(e) => setAnswer(e.target)}
                 />
               </Col>
               <Col>
@@ -79,6 +81,7 @@ const LearnVideoCardModule = (props) => {
                   name="group1"
                   type="radio"
                   id={`inline-"radio"v-2`}
+                  onChange={(e) => setAnswer(e.target)}
                 />
               </Col>
             </Row>
@@ -90,6 +93,7 @@ const LearnVideoCardModule = (props) => {
                   name="group1"
                   type="radio"
                   id={`inline-"radio"v-3`}
+                  onChange={(e) => setAnswer(e.target)}
                 />
               </Col>
               <Col>
@@ -99,6 +103,7 @@ const LearnVideoCardModule = (props) => {
                   name="group1"
                   type="radio"
                   id={`inline-"radio"v-4`}
+                  onChange={(e) => setAnswer(e.target)}
                 />
               </Col>
             </Row>
@@ -108,7 +113,7 @@ const LearnVideoCardModule = (props) => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button className="quizBtn" onClick={handleClose}>
+          <Button className="quizBtn" onClick={console.log(answer)}>
             Submit
           </Button>
         </Modal.Footer>
