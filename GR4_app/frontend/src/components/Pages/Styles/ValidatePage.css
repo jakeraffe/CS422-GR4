@@ -15,20 +15,19 @@
   transform: scale(1.1);
 }
 
-.validate-coin-label h1{
+.validate-coin-label h1 {
   font-size: 6vmin;
 }
 
-.validate-coin-label h2{
+.validate-coin-label h2 {
   font-size: 4vmin;
 }
 
-
-@media only screen and (min-height: 400px) and (max-height: 800px){
-  .wsb{
-    margin-top: -8%;
+@media only screen and (min-height: 400px) and (max-height: 800px) {
+  .wsb {
+    margin: -10% 0% 0% 0%;
   }
-  .ws{
-    margin-top: -8%;
+  .ws {
+    margin: -10% 0% 0% 0%;
   }
 }

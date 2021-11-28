@@ -10,7 +10,7 @@ const LearnVideoCardModule = (props) => {
   var label2 = props.label2;
   var label3 = props.label3;
   var label4 = props.label4;
-  // var correct = props.correct;
+  var correct = props.correct;
 
   const [show, setShow] = useState(false);
 
@@ -108,7 +108,7 @@ const LearnVideoCardModule = (props) => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button className="quizBtn" onClick={handleClose}>
             Submit
           </Button>
         </Modal.Footer>
