@@ -22,3 +22,13 @@
 .validate-coin-label h2{
   font-size: 4vmin;
 }
+
+
+@media only screen and (min-height: 400px) and (max-height: 800px){
+  .wsb{
+    margin-top: -8%;
+  }
+  .ws{
+    margin-top: -8%;
+  }
+}

@@ -52,18 +52,13 @@ const ValidatePage = () => {
                             </div> 
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="wsb">
                         <Col className="mx-auto" xs={12} md={12} lg={6}>
                             <div className="mx-auto p-5 rounded-circle search-bubble">     
                                 <div className="validate-coin-label">
                                     <h1>VALIDATE</h1>
                                     <h2>YOUR COIN:</h2>
                                 </div>
-                                {/* <Form className='d-flex'>
-                                        <Form.Control type="text" placeholder="Verify Coin:" onChange={e => {coin = e.target.value; 
-                                                    setSearchColor("primary"); setSearch("Search")}} onKeyPress={e => {if (e.key === "Enter") enterSearchCoin(e)}}/>
-                                        <Button variant={searchColor} onClick={searchCoin}>{searchState}</Button>
-                                </Form> */}
                                 <CoinValidateModule/>
                                 <Row>
                                     <Col xs={6} md={3} lg={3}>
@@ -83,7 +78,7 @@ const ValidatePage = () => {
 
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="ws">
                         <Col xs={12} md={6} lg={6}> 
                             <div className="mx-auto">
                                 <BubbleModule imgsrc={influencerLogo} text="INFLUENCER ACTIVITY"/>
