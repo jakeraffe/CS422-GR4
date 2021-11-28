@@ -8,7 +8,10 @@ import TitleBarModule from "../Modules/TitleBarModule";
 import notScamLogo from "./Images/check.png";
 import scamLogo from "./Images/cancel.png";
 import scamGraph from "./Images/scam-graph.png";
-import legitGraph from "./Images/legit-graph.jpg";
+import ethGraph from "./Images/eth-graph.png";
+import ltcGraph from "./Images/ltc-graph.png";
+import dogeGraph from "./Images/doge-graph.png";
+import btcGraph from "./Images/btc-graph.png";
 import VideoPlayerNewsVRModule from "../Modules/VideoPlayerNewsVR";
 
 const ValidatedResultsPage = () => {
@@ -18,7 +21,7 @@ const ValidatedResultsPage = () => {
       name: "ETHEREUM",
       abbreviation: "ETH",
       isScam: false,
-      priceGraph: legitGraph,
+      priceGraph: ethGraph,
       price: "$4806.25",
       developers:
         "Vitalik Buterin, Alex Leverington, Jeffrey Wylcke, Virgil Griffith",
@@ -37,7 +40,7 @@ const ValidatedResultsPage = () => {
       name: "BITCOIN",
       abbreviation: "BTC",
       isScam: false,
-      priceGraph: legitGraph,
+      priceGraph: btcGraph,
       price: "$67923.57",
       developers:
         "Satoshi Nakamoto, Wladimir J. van der Laan, Jonas Schnelli...",
@@ -56,7 +59,7 @@ const ValidatedResultsPage = () => {
       name: "LITECOIN",
       abbreviation: "LTC",
       isScam: false,
-      priceGraph: legitGraph,
+      priceGraph: ltcGraph,
       price: "$258.14",
       developers: "Charlie Lee, Fan Yang, Johnson Lau, Loshan T...",
       dateLaunched: "October 13, 2011",
@@ -74,7 +77,7 @@ const ValidatedResultsPage = () => {
       name: "DOGECOIN",
       abbreviation: "DOGE",
       isScam: false,
-      priceGraph: legitGraph,
+      priceGraph: dogeGraph,
       price: "$0.279460",
       developers: "Max K., Patrick Lodder, Ross Nicoll",
       dateLaunched: "December 6, 2013",
@@ -124,14 +127,22 @@ const ValidatedResultsPage = () => {
             <BubbleModule imgsrc={logo} text={statusCoin} />
           </Col>
           <Col xs={12} md={12} lg={6}>
+
             <Modal.Dialog className="card-info">
-              <Modal.Body>
-                <Image
-                  src={coinObj.priceGraph}
-                  alt="Price Graph"
-                  fluid
-                />
-              </Modal.Body>
+                <Modal.Body>
+                  <Row>
+                    <Col xs={1} sm={1} md={1} lg={1}>
+                      <p style={{fontSize:"11px", transform: "rotate(270deg)", marginTop: "100px"}}>PRICE</p>
+                    </Col>
+                    <Col xs={10} sm={10} md={10} lg={10}>
+                    <Image
+                      src={coinObj.priceGraph}
+                      alt="Price Graph"
+                      fluid/>
+                    </Col>
+                  </Row>
+                  <p style={{fontSize:"11px", marginLeft: "50%", marginTop:"15px"}}>YEAR</p>
+                </Modal.Body>
             </Modal.Dialog>
           </Col>
         </Row>
