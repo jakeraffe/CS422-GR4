@@ -7,7 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const AboutUsPage = () => {
   return (
     <Container fluid="md" className="mt-5 mb-5 ml-0 mr-0">
-      <TitleBarModule title="What we do" />
+      <TitleBarModule title="What we do" className="titleStyle" />
       <Row className="mt-0 mb-0 ml-0 mr-0">
         <table id="myTable">
           <tr>

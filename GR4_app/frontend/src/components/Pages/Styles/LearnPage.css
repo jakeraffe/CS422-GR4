@@ -48,21 +48,27 @@ body {
     padding-top: 100px;
   }
   .title{
-    margin-right: 25%
+    margin-right: 26%
   }
-  /* .wsb {
-    margin: -10.5% 0% 0% 0%;
+  .headerStyle{
+    margin-right: 100px;
   }
-  .ws {
-    margin: -10.5% 0% 0% 0%;
-  } */
 }
 
-
-  /* .wsb {
-    margin: -10.5% 0% 0% 0%;
+@media only screen and (max-width: 630px){
+  .my-modal{
+    width: 500px;
   }
-  .ws {
-    margin: -10.5% 0% 0% 0%;
-  } */
-/* } */
+  .headerStyle{
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 534px){
+  .my-modal{
+    width: 450px;
+  }
+  .headerStyle{
+    margin-right: 100px;
+  }
+}

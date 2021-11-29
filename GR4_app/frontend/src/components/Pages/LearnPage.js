@@ -49,7 +49,7 @@ const LearnPage = () => {
       <div className="progressBar">
         <ProgressBar now={25}/>
       </div>
-      <div className="grid">
+      <div className="grid LearnCards">
         <LearnVideoCardModule
           source="VYWc9dFqROI"
           title="Crypto for Beginners"

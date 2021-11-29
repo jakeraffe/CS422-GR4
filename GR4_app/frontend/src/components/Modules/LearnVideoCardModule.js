@@ -51,11 +51,11 @@ const LearnVideoCardModule = (props) => {
     <>
       <Modal.Dialog className="my-modal ">
         <Modal.Header>
-          <div class="row justify-content-left ">
+          <div class="row justify-content-left headerStyle">
             <div className="col-10">
               <Modal.Title>{title}</Modal.Title>
             </div>
-            <div className="col-2 ">
+            <div className="col-2">
               <Button className="quizBtn" onClick={handleShow}>
                 Go to quiz &nbsp; &#9654;
               </Button>

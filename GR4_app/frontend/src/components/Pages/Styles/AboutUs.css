@@ -53,3 +53,12 @@ a:hover {
 #myTable td {
   min-width: 180px;
 }
+
+@media only screen and (max-width: 1111px) {
+  .titleStyle{
+    margin-right: 25%;
+  }
+  .btn-bubble-points{
+    margin-left: 20px;
+  }
+}
