@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
 
 /* .influencer-card {
   margin: 5px;
@@ -18,21 +18,24 @@
   margin-bottom: 10px;
 }
 
-.r1{
+.r1 {
   text-align: left;
 }
 
-.c1{
+.c1 {
   margin-right: 17%;
 }
 
-.r2{
+.r2 {
   text-decoration: underline;
   margin-bottom: 10px;
 }
 
-.r3{
+.r3 {
   margin-right: 17%;
 }
 
-
+.safe-coins-header,
+.scam-coins-header {
+  text-decoration: underline;
+}

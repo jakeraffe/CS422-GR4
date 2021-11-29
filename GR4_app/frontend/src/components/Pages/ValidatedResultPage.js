@@ -2,7 +2,7 @@ import React from "react";
 import "./Pages.css";
 import "./Styles/ValidPageResult.css";
 import BubbleModule from "../Modules/BubbleModule";
-import {useLocation} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Container, Row, Col, Modal, Image } from "react-bootstrap";
 import TitleBarModule from "../Modules/TitleBarModule";
 import notScamLogo from "./Images/check.png";
@@ -127,22 +127,34 @@ const ValidatedResultsPage = () => {
             <BubbleModule imgsrc={logo} text={statusCoin} />
           </Col>
           <Col xs={12} md={12} lg={6}>
-
             <Modal.Dialog className="card-info">
-                <Modal.Body>
-                  <Row>
-                    <Col xs={1} sm={1} md={1} lg={1}>
-                      <p style={{fontSize:"11px", transform: "rotate(270deg)", marginTop: "100px"}}>PRICE</p>
-                    </Col>
-                    <Col xs={10} sm={10} md={10} lg={10}>
-                    <Image
-                      src={coinObj.priceGraph}
-                      alt="Price Graph"
-                      fluid/>
-                    </Col>
-                  </Row>
-                  <p style={{fontSize:"11px", marginLeft: "50%", marginTop:"15px"}}>YEAR</p>
-                </Modal.Body>
+              <Modal.Body>
+                <Row>
+                  <Col xs={1} sm={1} md={1} lg={1}>
+                    <p
+                      style={{
+                        fontSize: "15px",
+                        transform: "rotate(270deg)",
+                        marginTop: "100px",
+                      }}
+                    >
+                      PRICE
+                    </p>
+                  </Col>
+                  <Col xs={11} sm={11} md={11} lg={11}>
+                    <Image src={coinObj.priceGraph} alt="Price Graph" fluid />
+                  </Col>
+                </Row>
+                <p
+                  style={{
+                    fontSize: "15px",
+                    marginLeft: "50%",
+                    marginTop: "15px",
+                  }}
+                >
+                  YEAR
+                </p>
+              </Modal.Body>
             </Modal.Dialog>
           </Col>
         </Row>
@@ -175,8 +187,11 @@ const ValidatedResultsPage = () => {
                 <p>
                   INFLATION: <span>{coinObj.inflation}</span>
                 </p>
-                 <p>
-                    WEBSITE:<a href={coinObj.website} target="blank">VISIT 🖱️</a>
+                <p>
+                  WEBSITE:
+                  <a href={coinObj.website} target="blank">
+                    VISIT 🖱️
+                  </a>
                 </p>
               </Modal.Body>
             </Modal.Dialog>

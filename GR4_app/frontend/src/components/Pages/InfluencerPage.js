@@ -23,7 +23,10 @@ import instagramLogo from "./Images/instagram.png";
 
 const InfluencerPage = () => {
   var filter_array = {
-    Platform: ["Twitter", "Instagram", "Youtube"], Age: ["0-16", "17-25", "25+"], Gender: ["Male", "Female"]};
+    Platform: ["Twitter", "Instagram", "Youtube"],
+    Age: ["0-16", "17-25", "25+"],
+    Gender: ["Male", "Female"],
+  };
   const [show, setShow] = useState(false);
   const [show2, setShow2] = useState(false);
   const [show3, setShow3] = useState(false);
@@ -48,25 +51,32 @@ const InfluencerPage = () => {
         <Container className="mt-5 mb-5">
           <TitleBarModule title="Influencer Activity" />
           <Row>
+            <p className="text-left ml-5 mr-5">
+              Some influencers are paid to promote specific cryptocurrencies
+              without doing their research. Promoting cryptocurrency without the
+              proper research has a negative affect and can disillusion their
+              fanbase into making bad monetary decisions. Use this page to look
+              at celebrities/influencers who have used their social media
+              platforms to promote cryptocurrency.
+            </p>
+          </Row>
+          <Row>
             <Col className="filterRow">
               <div>
                 <div className="filterModule">
-                  <FilterModule array={filter_array}/>
+                  <FilterModule array={filter_array} />
                 </div>
               </div>
             </Col>
           </Row>
           <Row>
-            <p className="par">
-              Some influencers are paid to promote specific cryptocurrencies without doing their research.
-              Promoting cryptocurrency without the proper research has a negative affect and can disillusion their fanbase into making bad monetary decisions.
-              Use this page to look at celebrities/influencers who have used their social media platforms to promote cryptocurrency. 
-            </p>
-          </Row>
-          <Row>
             <Col className="socialMediaCards">
-              <CardGroup className="cardGroup">
-                <Card className="card" border="info" style={{ borderRadius: 25 }}>
+              <CardGroup className="cardGroup justify-content-center align-items-center">
+                <Card
+                  className="card"
+                  border="info"
+                  style={{ borderRadius: 25 }}
+                >
                   <Card.Img
                     variant="top"
                     className="photo"
@@ -81,10 +91,10 @@ const InfluencerPage = () => {
                     </Card.Text> */}
                     <Card.Img
                       variant="top"
-                      className="photo"
+                      className="logo"
                       src={twitterLogo}
                       fluid
-                    /> 
+                    />
                     <Button className="influencerBtn" onClick={handleShow}>
                       More Information
                     </Button>
@@ -97,7 +107,7 @@ const InfluencerPage = () => {
                           imgsrc={elonMuskLogo}
                           text="Elon Musk"
                           text2="Twitter"
-                          text3="Bitcoin, Etherum"
+                          text3="Bitcoin, Ethereum"
                           text4="None"
                         />
                       </Modal.Body>
@@ -109,7 +119,11 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info" style={{ borderRadius: 25 }}>
+                <Card
+                  className="card"
+                  border="info"
+                  style={{ borderRadius: 25 }}
+                >
                   <Card.Img
                     variant="top"
                     className="photo"
@@ -119,17 +133,17 @@ const InfluencerPage = () => {
                   />
                   <Card.Body>
                     <Card.Title className="card-title">
-                      Kim Kadashian
+                      Kim Kardashian
                     </Card.Title>
                     {/* <Card.Text className="card-body-text">
                       Social Media: Instagram
                     </Card.Text> */}
                     <Card.Img
                       variant="top"
-                      className="photo"
+                      className="logo"
                       src={instagramLogo}
                       fluid
-                    /> 
+                    />
                     <Button className="influencerBtn" onClick={handleShow2}>
                       More Information
                     </Button>
@@ -143,7 +157,7 @@ const InfluencerPage = () => {
                           text="Kim Kardashian"
                           text2="Instagram"
                           text3="None"
-                          text4="Etherum Max Token"
+                          text4="Ethereum Max Token"
                         />
                       </Modal.Body>
                       <Modal.Footer>
@@ -154,7 +168,11 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info" style={{ borderRadius: 25}}>
+                <Card
+                  className="card"
+                  border="info"
+                  style={{ borderRadius: 25 }}
+                >
                   <Card.Img
                     variant="top"
                     className="photo"
@@ -169,10 +187,10 @@ const InfluencerPage = () => {
                     </Card.Text> */}
                     <Card.Img
                       variant="top"
-                      className="photo"
+                      className="logo"
                       src={twitterLogo}
                       fluid
-                    /> 
+                    />
                     <Button className="influencerBtn" onClick={handleShow3}>
                       More Information
                     </Button>
@@ -197,7 +215,11 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info" style={{ borderRadius: 25}}>
+                <Card
+                  className="card"
+                  border="info"
+                  style={{ borderRadius: 25 }}
+                >
                   <Card.Img
                     variant="top"
                     className="photo"
@@ -214,10 +236,10 @@ const InfluencerPage = () => {
                     </Card.Text> */}
                     <Card.Img
                       variant="top"
-                      className="photo"
+                      className="logo"
                       src={instagramLogo}
                       fluid
-                    /> 
+                    />
                     <Button className="influencerBtn" onClick={handleShow4}>
                       More Information{" "}
                     </Button>
@@ -231,7 +253,7 @@ const InfluencerPage = () => {
                           text="Floyd Mayweather"
                           text2="Instagram"
                           text3="Bitcoin"
-                          text4="Etherum Max Token"
+                          text4="Ethereum Max Token"
                         />
                       </Modal.Body>
                       <Modal.Footer>
@@ -242,7 +264,11 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info" style={{ borderRadius: 25 }}>
+                <Card
+                  className="card"
+                  border="info"
+                  style={{ borderRadius: 25 }}
+                >
                   <Card.Img
                     variant="top"
                     className="photo"
@@ -257,10 +283,10 @@ const InfluencerPage = () => {
                     </Card.Text> */}
                     <Card.Img
                       variant="top"
-                      className="photo"
+                      className="logo"
                       src={twitterLogo}
                       fluid
-                    /> 
+                    />
                     <Button className="influencerBtn" onClick={handleShow5}>
                       More Information{" "}
                     </Button>

@@ -52,3 +52,7 @@
   outline: none !important;
   box-shadow: none !important;
 }
+
+.logo {
+  width: 50%;
+}
