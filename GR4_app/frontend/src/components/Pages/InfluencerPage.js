@@ -58,22 +58,20 @@ const InfluencerPage = () => {
           </Row>
           <Row>
             <p className="par">
-              Celebrities/Influencers have a major influence in Cryptocurrency. 
-              Their influence can have positive and/or negative affects.
-              A positive influence influencers can bring to Cryptocurrency is knowledge and awareness to another way of investing income.
-              Some influencers however are paid to promote specific cryptocurrencies without doing their research.
+              Some influencers are paid to promote specific cryptocurrencies without doing their research.
               Promoting cryptocurrency without the proper research has a negative affect and can disillusion their fanbase into making bad monetary decisions.
-              Use this page to look at celebrities who have used their social media platforms to promote cryptocurrency. 
+              Use this page to look at celebrities/influencers who have used their social media platforms to promote cryptocurrency. 
             </p>
           </Row>
           <Row>
             <Col className="socialMediaCards">
               <CardGroup className="cardGroup">
-                <Card className="card" border="info">
+                <Card className="card" border="info" style={{ borderRadius: 25 }}>
                   <Card.Img
                     variant="top"
                     className="photo"
                     src={elonMuskLogo}
+                    style={{ borderRadius: 25 }}
                     fluid
                   />
                   <Card.Body>
@@ -111,11 +109,12 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info">
+                <Card className="card" border="info" style={{ borderRadius: 25 }}>
                   <Card.Img
                     variant="top"
                     className="photo"
                     src={kimKardashianLogo}
+                    style={{ borderRadius: 25 }}
                     fluid
                   />
                   <Card.Body>
@@ -155,11 +154,12 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info">
+                <Card className="card" border="info" style={{ borderRadius: 25}}>
                   <Card.Img
                     variant="top"
                     className="photo"
                     src={jakePaulLogo}
+                    style={{ borderRadius: 25 }}
                     fluid
                   />
                   <Card.Body>
@@ -197,11 +197,12 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info">
+                <Card className="card" border="info" style={{ borderRadius: 25}}>
                   <Card.Img
                     variant="top"
                     className="photo"
                     src={floydLogo}
+                    style={{ borderRadius: 25 }}
                     fluid
                   />
                   <Card.Body>
@@ -241,11 +242,12 @@ const InfluencerPage = () => {
                     </Modal>
                   </Card.Body>
                 </Card>
-                <Card className="card" border="info">
+                <Card className="card" border="info" style={{ borderRadius: 25 }}>
                   <Card.Img
                     variant="top"
                     className="photo"
                     src={fazeLogo}
+                    style={{ borderRadius: 25 }}
                     fluid
                   />
                   <Card.Body>
