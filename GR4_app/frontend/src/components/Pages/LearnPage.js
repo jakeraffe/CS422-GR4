@@ -3,6 +3,7 @@ import TitleBarModule from "../Modules/TitleBarModule";
 import FilterModule from "../Modules/FilterModule";
 import LearnVideoCardModule from "../Modules/LearnVideoCardModule";
 // import BubbleModule from "../Modules/BubbleModule"
+import {ProgressBar} from "react-bootstrap";
 import "./Styles/LearnPage.css";
 import "../Modules/Styles/title.css";
 
@@ -20,8 +21,7 @@ const LearnPage = () => {
   return (
     <div>
       <div
-        className="row justify-content-center mt-0 mb-0 ml-0 mr-0" /*title, filter and bubble score div*/
-      >
+        className="row justify-content-center mt-0 mb-0 ml-0 mr-0" /*title, filter and bubble score div*/>
         <div className="col"></div>
         <div
           className="col title"
@@ -29,7 +29,7 @@ const LearnPage = () => {
         >
           <TitleBarModule title="Learn Page" />
         </div>
-        <div className="col text-right">
+        <div className="col text-right ProgressCircle">
           <button className="rounded-circle btn-bubble-points">
             <div className="text-center">
               <h3> Progress: 25%</h3>
@@ -39,12 +39,15 @@ const LearnPage = () => {
         </div>
       </div>
       <div
-        className="row justify-content-center mt-0 mb-0 ml-0 mr-0" /*title, filter and bubble score div*/
+        className="row justify-content-center mt-0 mb-0 ml-0 mr-0 filterStyle" /*title, filter and bubble score div*/
       >
         {/* <div className="col"></div> */}
         <div className="col" style={{ marginTop: "-5em" }}>
           <FilterModule array={filter_array} />
         </div>
+      </div>
+      <div className="progressBar">
+        <ProgressBar now={25}/>
       </div>
       <div className="grid">
         <LearnVideoCardModule

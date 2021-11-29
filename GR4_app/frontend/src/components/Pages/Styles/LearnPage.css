@@ -29,3 +29,40 @@ body {
   font-size: medium;
   margin-left: -3em;
 }
+
+@media only screen and (min-width: 1111px) {
+  .progressBar{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1111px) {
+  .progressBar{
+    display: block;
+  }
+  .ProgressCircle{
+    display: none;
+  }
+  .filterStyle{
+    padding-top: 100px;
+  }
+  .title{
+    margin-right: 25%
+  }
+  /* .wsb {
+    margin: -10.5% 0% 0% 0%;
+  }
+  .ws {
+    margin: -10.5% 0% 0% 0%;
+  } */
+}
+
+
+  /* .wsb {
+    margin: -10.5% 0% 0% 0%;
+  }
+  .ws {
+    margin: -10.5% 0% 0% 0%;
+  } */
+/* } */
