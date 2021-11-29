@@ -96,9 +96,9 @@ const ValidatePage = () => {
               </div>
             </Col>
           </Row>
-          <Row className="ws">
+          <Row>
             <Col xs={12} md={6} lg={6}>
-              <div className="mx-auto">
+              <div className="ws mx-auto">
                 <BubbleModule
                   imgsrc={influencerLogo}
                   text="INFLUENCER ACTIVITY"
@@ -106,7 +106,7 @@ const ValidatePage = () => {
               </div>
             </Col>
             <Col xs={12} md={6} lg={6}>
-              <div className="mx-auto">
+              <div className="ws mx-auto">
                 <BubbleModule imgsrc={aboutLogo} text="ABOUT US" />
               </div>
             </Col>

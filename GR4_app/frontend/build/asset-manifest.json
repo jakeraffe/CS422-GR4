@@ -1,34 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.83f459df.chunk.css",
-    "main.js": "/static/js/main.dce10ed3.chunk.js",
-    "main.js.map": "/static/js/main.dce10ed3.chunk.js.map",
+    "main.css": "/static/css/main.3f84530f.chunk.css",
+    "main.js": "/static/js/main.cabb225e.chunk.js",
+    "main.js.map": "/static/js/main.cabb225e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
-    "static/js/2.7406ce79.chunk.js": "/static/js/2.7406ce79.chunk.js",
-    "static/js/2.7406ce79.chunk.js.map": "/static/js/2.7406ce79.chunk.js.map",
+    "static/js/2.bab92aac.chunk.js": "/static/js/2.bab92aac.chunk.js",
+    "static/js/2.bab92aac.chunk.js.map": "/static/js/2.bab92aac.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.83f459df.chunk.css.map": "/static/css/main.83f459df.chunk.css.map",
-    "static/js/2.7406ce79.chunk.js.LICENSE.txt": "/static/js/2.7406ce79.chunk.js.LICENSE.txt",
+    "static/css/main.3f84530f.chunk.css.map": "/static/css/main.3f84530f.chunk.css.map",
+    "static/js/2.bab92aac.chunk.js.LICENSE.txt": "/static/js/2.bab92aac.chunk.js.LICENSE.txt",
     "static/media/about.b495714b.png": "/static/media/about.b495714b.png",
     "static/media/bitcoin.499c066e.png": "/static/media/bitcoin.499c066e.png",
+    "static/media/btc-graph.caccff56.png": "/static/media/btc-graph.caccff56.png",
     "static/media/cancel.1c2963ee.png": "/static/media/cancel.1c2963ee.png",
     "static/media/check.2b1900ca.png": "/static/media/check.2b1900ca.png",
+    "static/media/doge-graph.8d4006ba.png": "/static/media/doge-graph.8d4006ba.png",
     "static/media/dogecoin.c854d2b0.png": "/static/media/dogecoin.c854d2b0.png",
+    "static/media/eth-graph.a7666773.png": "/static/media/eth-graph.a7666773.png",
     "static/media/ethereum.bbcce33a.png": "/static/media/ethereum.bbcce33a.png",
     "static/media/faze.1ba2a7a4.png": "/static/media/faze.1ba2a7a4.png",
     "static/media/influencer.4d7949be.png": "/static/media/influencer.4d7949be.png",
     "static/media/instagram.5c501ff2.png": "/static/media/instagram.5c501ff2.png",
     "static/media/kimk.109b293e.jpeg": "/static/media/kimk.109b293e.jpeg",
     "static/media/learn.51f8d182.png": "/static/media/learn.51f8d182.png",
-    "static/media/legit-graph.ab7ee8e2.jpg": "/static/media/legit-graph.ab7ee8e2.jpg",
     "static/media/litecoin.24701593.png": "/static/media/litecoin.24701593.png",
-    "static/media/scam-graph.183b23bc.png": "/static/media/scam-graph.183b23bc.png"
+    "static/media/ltc-graph.48e1a8a9.png": "/static/media/ltc-graph.48e1a8a9.png",
+    "static/media/scam-graph.69d57bbb.png": "/static/media/scam-graph.69d57bbb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c2e8e232.js",
-    "static/js/2.7406ce79.chunk.js",
-    "static/css/main.83f459df.chunk.css",
-    "static/js/main.dce10ed3.chunk.js"
+    "static/js/2.bab92aac.chunk.js",
+    "static/css/main.3f84530f.chunk.css",
+    "static/js/main.cabb225e.chunk.js"
   ]
 }
