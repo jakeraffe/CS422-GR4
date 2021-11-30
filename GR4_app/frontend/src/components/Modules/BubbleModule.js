@@ -1,10 +1,10 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import "./Styles/bubble.css";
 
 const BubbleModule = (props) => {
-  const history = useHistory();
+const history = useHistory();
+let classes = "rounded-circle btn-bubble";
 
   // Onclick redirect to other pages
   function redirectClick() {
@@ -25,7 +25,7 @@ const BubbleModule = (props) => {
   }
 
   return (
-    <button className="rounded-circle btn-bubble" onClick={redirectClick}>
+    <button className={classes + " " + props.marginfix} onClick={redirectClick}>
       <img src={props.imgsrc} alt={props.text} className="img-inner-bubble" />
       <p className="label">{props.text}</p>
     </button>

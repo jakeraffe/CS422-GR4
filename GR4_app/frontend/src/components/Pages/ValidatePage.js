@@ -51,9 +51,9 @@ const ValidatePage = () => {
               </div>
             </Col>
           </Row>
-          <Row className="wsb">
+          <Row>
             <Col className="mx-auto" xs={12} md={12} lg={6}>
-              <div className="mx-auto p-5 rounded-circle search-bubble">
+              <div className="wsb mx-auto p-5 rounded-circle search-bubble">
                 <div className="validate-coin-label">
                   <h1>VALIDATE</h1>
                   <h2>YOUR COIN:</h2>
@@ -98,17 +98,14 @@ const ValidatePage = () => {
           </Row>
           <Row>
             <Col xs={12} md={6} lg={6}>
-              <div className="ws mx-auto">
                 <BubbleModule
+                  marginfix="ws"
                   imgsrc={influencerLogo}
                   text="INFLUENCER ACTIVITY"
                 />
-              </div>
             </Col>
             <Col xs={12} md={6} lg={6}>
-              <div className="ws mx-auto">
-                <BubbleModule imgsrc={aboutLogo} text="ABOUT US" />
-              </div>
+                <BubbleModule imgsrc={aboutLogo} marginfix="ws" text="ABOUT US" />
             </Col>
           </Row>
         </div>

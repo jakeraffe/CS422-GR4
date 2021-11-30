@@ -32,3 +32,11 @@ style={{width: "150px", height: "150px", objectFit:"contain", margin:"8px"}} */
   margin: 0;
   padding: 0 0 0 15px;
 }
+
+
+@media only screen and (min-height: 400px) and (max-height: 800px) {
+  .ws {
+    margin: -10.5% 0% 0% 0%;
+  }
+}
+
